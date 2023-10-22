@@ -10,14 +10,14 @@ At the moment we are a Microsoft partner and we are very keen to expand our co-o
 
 ### Functional Requirements
 Deliver an important information into Staff and Visitors smartphones:  
-   - Provide easy way for **Zoo** staff track visitors of each cage and control feed activities  
-   - Provide east way to sell animal show tickets on place or track multitieck
-   - Provide functionality of grouping animals by **behavior** and **agressivity** levels   (*carnivores or herbivores*)
-   - Provide easy tracking each animal care by **animal cards**. Animal Card should store medical and clean appointment and feed schedule
+- Provide easy way for **Zoo** staff track visitors of each cage and control feed activities  
+- Provide east way to sell animal show tickets on place or track multitieck
+- Provide functionality of grouping animals by **behavior** and **agressivity** levels   (*carnivores or herbivores*)
+- Provide easy tracking each animal care by **animal cards**. Animal Card should store medical and clean appointment and feed schedule
 
 Separate application functionality for Visitors and Zoo Employees (staff).
  
-   1. Visitors should have access to Cage placement on the Zoo Map. Application should hint animal information automatically for animals in radius of location 50m 
-   2. Visitors should have access to detailed information about animal on demand and able to search animal by its type or name
-   3. Employees should have access to journal of medical and service attendees of each animal and have ability to add attendee records from its devices
-   4. Employees should be able to change status of Cage (Closed/Open) and specify attendee schedule
+1. Visitors should have access to Cage placement on the Zoo Map. Application should hint animal information automatically for animals in radius of location 50m 
+2. Visitors should have access to detailed information about animal on demand and able to search animal by its type or name
+3. Employees should have access to journal of medical and service attendees of each animal and have ability to add attendee records from its devices
+4. Employees should be able to change status of Cage (Closed/Open) and specify attendee schedule
