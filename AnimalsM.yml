@@ -1,17 +1,17 @@
-# Идентификатор: <RIID>
-# Кличка: <String>50?
-# Возраст: <Numeric>?       
-# Название животного:<String>20
-# Тип питания(Плотоядный,Насекомые,Травоядные,Сухие корма и Минералы)
-# Вид (Мелекапитаюшие,Рыбы,Птицы,Рептили)
-# Тип размножения(Живо Родяшие и Яйце кладущие)
-# Ориал обитания(Cухопутный,Земноводный,Вода,Деревья и Воздух)
-# Тип Воды (Пресная,Соленая)
-# Суточный цикл(Дневной,Ночной)
-# Летает(Да,Нет)
-# Название класа:<String>60
-# Высота в прыжке:<Numeric>?       
-# Размер зоны обитания:<int> 
+# name: ""
+# pet name: ""
+# class: "" (Mammals, Amphibians, Reptiles, Birds, Fish)
+# type: <String>60
+# id: <RIID>
+# age: <Numeric>?       
+# meal: (Carnivorous, Insects, Herbivores, Dry feed, Minerals)
+# reproduction: (Viviparous, Oviparous)
+# Arial: (Groovy, Amphibian, Water, Trees, Air)
+# Daily cycle: (Day, Night)
+# Flies: (Yes, No)
+# Lives Underground: (Yes, No)
+# Floats: (Yes, No)
+# Habitat Area Size: <int> 
 
 # TODO: определить для всех Размер зоны обитания
 
