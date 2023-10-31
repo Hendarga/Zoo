@@ -1,12 +1,12 @@
-# Тип клетки: (Вольер, Пастбище, Аквариум, Равнина с камнями, Лесное угодие, Терикон-Водоём)
-# Укрытость сеткой: Да, Нет
-# Площадь: <Numeric>?
-# Геометрия: <Collection:POINT>
-# Высота: <Numeric>? 
-# Длина: <Numeric>? 
-# Ширина: <Numeric>? 
-# Открыт для посещения: Да, Нет
-# Идентификатор: <RIID>
+# cage type: (Enclosure, Pasture, Aquarium, Stone Plain, Forest, Terrikon-Pond)
+# netting: Yes, No
+# square: <Numeric>?
+# geometry: <Collection:POINT>
+# height: <Numeric>? 
+# length: <Numeric>? 
+# width: <Numeric>? 
+# open to visit: Yes, No
+# id: <RIID>
 
 ---
 Идентификатор: 1
