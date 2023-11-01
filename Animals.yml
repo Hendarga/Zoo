@@ -19,16 +19,46 @@
 # Mammalia Felidae:
 1.Капский Лев 2.Львица 3.Бенгальский Тигр 4.Флоридская пума 5.Яванский леопард 6.Чёрный ягуар
 # Mammalia Ursidae:
-7.Белый медведь 8.Гризли 9.Гималайский медведь 
+7.Белый медведь 8.Гризли 9.Гималайский медведь 10.Большая панда
 # Mammalia Canidae:
-10.Мелвильский островной волк
-
-11.Тапир 12.Слон 13.Гиппопотам 14.Носорог 15.Жираф 16.Лось 17.Олень 18.Верблюд 19.Зебра 20.Бизон
-21.Морж 22.Тюлень 23.Ламантин 24.Дельфин 25.Касатка 26.Белая Акула 27.Пингвин 28.Черепаха
-29.Чёрный кайман 30.Крокодил 31.Алигатор 32.Комодский варан 33.Анаконда 33.Кобра 33.Сетчатый питон
-34.Жаба-повитуха 35.Зедлоносная жаба 36.Носатая жаба
-37.Белоголовый сип 38.Королевский гриф 39.Африканский страус 40.Фламинго 41.Ара 42.Колибри 43.Тукан 44.Киви
-45.Древесный кенгуру 46.Древесный дикобраз 47.Гиббон 48.Кинкажу 49.Лемур 50.Горила    
+11.Мелвильский островной волк
+# Mammalia Elephantidae:
+12.Азиатский Слон 
+# Mammalia Artiodactyla:
+13.Европейский зубр 14.Гиппопотам 15.Сетчатый Жираф 16.Европейский Лось 
+17.Благородный олень 18.Двугорбовый Верблюд 
+# Mammalia Artiodactyla Delphinidae:
+19.Дельфин Афалин 20.Касатка
+# Mammalia Perissodactyla:
+21.Чёрный Носорог  22.Горная Зебра 23.Чепрачный Тапир 
+# Mammalia Pinnipedia:
+24.Тихоокеанский Морж 25.Ларга Тюлень
+# Mammalia Sirenia:
+26.Амазонский Ламантин  
+# Mammalia Primates:
+27.Западная Горила 28.Рыжий вари 29.Кампучийский гиббон 30.Малый лори 31.Игрунука Куля
+# Reptilia Testudines:
+32.Гигантская Черепаха
+# Reptilia Crocodilia:
+33.Чёрный кайман 34.Гангский Крокодил 35.Китайский Алигатор 
+# Reptilia Squamata:
+36.Гигантская Анаконда 37.Королевская Кобра 38.Сетчатый питон 
+# Reptilia Varanidae:
+39.Комодский варан
+# Amphibia Anura:
+40.Жаба-повитуха 41.Седлоносная жаба 42.Носатая жаба
+# Birds Sphenisciformes:
+43.Императорский Пингвин 
+# Birds Accipitriformes:
+44.Белоголовый сип 45.Королевский гриф 
+# Birds Struthioniformes:
+46.Африканский страус 
+# Birds Phoenicopteriformes:
+47.Чилийский Фламинго 
+# Birds Psittacidae:
+48.Ара 49.Черноголовый попугай 50.Золотая аратинга 
+# Birds Apodiformes:
+51.Колибри 
 
 Mammalia Felidae:
 ---
@@ -46,7 +76,7 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Lioness"
@@ -63,7 +93,7 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Bengal tiger"
@@ -80,7 +110,7 @@ daily cycle: Day
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Florida panther"
@@ -97,7 +127,7 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 --- 
 species: "Javan leopard"
@@ -114,7 +144,7 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Black jaguar"
@@ -131,7 +161,7 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 Mammalia Ursidae:
 ---
@@ -149,7 +179,7 @@ daily cycle: Early Morning and Late Evening
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Grizzly bear"
@@ -166,7 +196,7 @@ daily cycle: Early Morning and Late Evening
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
 ---
 species: "Asian black bear"
@@ -183,7 +213,24 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a
+...
+---
+species: "Giant panda"
+pet name: "Gandi"
+class: "Mammalia" 
+family: "Ursidae"
+genus: "Ursus"
+id: f137
+age: 15   
+meal: Carnivora
+reproduction: Viviparous
+arial: Groovy, Water, Woods
+daily cycle: Morning, Evening
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a
 ...
 Mammalia Canidae:
 ---
@@ -201,8 +248,257 @@ daily cycle: Night
 flies: No
 lives underground: No
 floats: Yes
-habitat area size: <int> 
+habitat area size: n/a 
 ...
+Mammalia Elephantidae:
+---
+species: "Asiatic elephant"
+pet name: "Jambo"
+class: "Mammalia" 
+family: "Elephantidae"
+genus: "Elephas"
+id: f331
+age: 55  
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Woods, Water
+daily cycle: Morning, Evening
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
+...
+Mammalia Artiodactyla:
+---
+species: "European bison"
+pet name: "Ivar"
+class: "Mammalia" 
+family: "Bovidae"
+genus: "Bison"
+id: f341
+age: 16  
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water
+daily cycle: Morning, Evening
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
+...
+---
+species: "Hippopotamus"
+pet name: "Glory"
+class: "Mammalia" 
+family: "Hippopotamidae"
+genus: "Hippopotamus"
+id: f342
+age: 46  
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water
+daily cycle: Night, Morning
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
+...
+---
+species: "Reticulated giraffe"
+pet name: "Melman"
+class: "Mammalia" 
+family: "Giraffidae"
+genus: "Giraffa"
+id: f343
+age: 19  
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
+...
+---
+species: "Elk"
+pet name: "ex"
+class: "Mammalia" 
+family: "Cervidae"
+genus: "Alces"
+id: f344
+age: 15 
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water, Wood
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
+...
+---
+species: "Red deer"
+pet name: "King"
+class: "Mammalia" 
+family: "Cervidae"
+genus: "Cervus"
+id: f345
+age: 14
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water, Wood
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
+...
+---
+species: "Bactrian camel"
+pet name: "Zen"
+class: "Mammalia" 
+family: "Camelidae"
+genus: "Camelus"
+id: f346
+age: 36 
+meal: Herbivores
+reproduction: Viviparous
+arial: Desert
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
+...
+Mammalia Artiodactyla Delphinidae:
+---
+...
+---
+...
+Mammalia Perissodactyla:
+---
+species: "Black rhino"
+pet name: "Roma"
+class: "Mammalia" 
+family: "Rhinocerotidae"
+genus: "Diceros"
+id: f351
+age: 44 
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water, Wood, Desert
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
+...
+---
+species: "Mountain zebra"
+pet name: "Gary"
+class: "Mammalia" 
+family: "Equidae"
+genus: "Equus"
+id: f352
+age: 18 
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
+...
+---
+species: "Malayan tapir"
+pet name: "Coba"
+class: "Mammalia" 
+family: "Tapiridae"
+genus: "Tapirus"
+id: f353
+age: 19
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Water, Wood
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
+...
+Mammalia Pinnipedia:
+---
+...
+---
+...
+Mammalia Sirenia:
+---
+...
+Mammalia Primates:
+---
+...
+---
+...
+---
+...
+---
+...
+---
+...
+Reptilia Testudines:
+---
+...
+Reptilia Crocodilia:
+---
+...
+---
+...
+---
+...
+Reptilia Squamata:
+---
+...
+---
+...
+---
+...
+Reptilia Varanidae:
+---
+...
+Amphibia Anura:
+---
+...
+---
+...
+---
+...
+Birds Sphenisciformes:
+---
+...
+Birds Accipitriformes:
+---
+...
+---
+...
+Birds Struthioniformes:
+---
+...
+Birds Phoenicopteriformes:
+---
+...
+Birds Psittacidae:
+---
+...
+---
+...
+---
+...
+Birds Apodiformes:
+---
+...
+
 ---
 Название живтного: Черепаха
 Тип питания: Всеядные
