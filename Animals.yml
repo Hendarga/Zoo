@@ -191,7 +191,7 @@ id: f135
 age: 20  
 meal: Carnivora
 reproduction: Viviparous
-arial: Groovy, Water, Wood
+arial: Groovy, Water, Trees
 daily cycle: Early Morning and Late Evening
 flies: No
 lives underground: No
@@ -208,7 +208,7 @@ id: f136
 age: 16   
 meal: Carnivora
 reproduction: Viviparous
-arial: Groovy, Water, Woods
+arial: Groovy, Water, Treess
 daily cycle: Night
 flies: No
 lives underground: No
@@ -225,7 +225,7 @@ id: f137
 age: 15   
 meal: Carnivora
 reproduction: Viviparous
-arial: Groovy, Water, Woods
+arial: Groovy, Water, Treess
 daily cycle: Morning, Evening
 flies: No
 lives underground: No
@@ -243,7 +243,7 @@ id: f228
 age: 6  
 meal: Carnivora
 reproduction: Viviparous
-arial: Groovy, Woods, Water
+arial: Groovy, Treess, Water
 daily cycle: Night
 flies: No
 lives underground: No
@@ -261,7 +261,7 @@ id: f331
 age: 55  
 meal: Herbivores
 reproduction: Viviparous
-arial: Groovy, Woods, Water
+arial: Groovy, Treess, Water
 daily cycle: Morning, Evening
 flies: No
 lives underground: No
@@ -330,7 +330,7 @@ id: f344
 age: 15 
 meal: Herbivores
 reproduction: Viviparous
-arial: Groovy, Water, Wood
+arial: Groovy, Water, Trees
 daily cycle: Day, Night
 flies: No
 lives underground: No
@@ -347,7 +347,7 @@ id: f345
 age: 14
 meal: Herbivores
 reproduction: Viviparous
-arial: Groovy, Water, Wood
+arial: Groovy, Water, Trees
 daily cycle: Day, Night
 flies: No
 lives underground: No
@@ -373,8 +373,38 @@ habitat area size: n/a
 ...
 Mammalia Artiodactyla Delphinidae:
 ---
+species: "Bottlenose dolphins"
+pet name: "Zoyberg"
+class: "Mammalia" 
+family: "Delphinidae"
+genus: "Tursiops"
+id: f361
+age: 24 
+meal: Carnivora
+reproduction: Viviparous
+arial: Water
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Orca"
+pet name: "Wayder"
+class: "Mammalia" 
+family: "Delphinidae"
+genus: "Orcinus"
+id: f362
+age: 31 
+meal: Carnivora
+reproduction: Viviparous
+arial: Water
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Mammalia Perissodactyla:
 ---
@@ -387,7 +417,7 @@ id: f351
 age: 44 
 meal: Herbivores
 reproduction: Viviparous
-arial: Groovy, Water, Wood, Desert
+arial: Groovy, Water, Trees, Desert
 daily cycle: Day, Night
 flies: No
 lives underground: No
@@ -421,7 +451,7 @@ id: f353
 age: 19
 meal: Herbivores
 reproduction: Viviparous
-arial: Groovy, Water, Wood
+arial: Groovy, Water, Trees
 daily cycle: Day, Night
 flies: No
 lives underground: No
@@ -430,73 +460,493 @@ habitat area size: n/a
 ...
 Mammalia Pinnipedia:
 ---
+species: "Walrus"
+pet name: "Ban"
+class: "Mammalia" 
+family: "Odobenidae"
+genus: "Odobenus"
+id: f371
+age: 26 
+meal: Carnivora
+reproduction: Viviparous
+arial: Water, Groovy
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Spotted seal"
+pet name: "Kitty"
+class: "Mammalia" 
+family: "Phocidae"
+genus: "Phoca"
+id: f372
+age: 16 
+meal: Carnivora
+reproduction: Viviparous
+arial: Water, Groovy
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Mammalia Sirenia:
 ---
+species: "Amazonian manatee"
+pet name: "Chudo"
+class: "Mammalia" 
+family: "Trichechidae"
+genus: "Trichechus"
+id: f381
+age: 55 
+meal: Herbivores
+reproduction: Viviparous
+arial: Water, Groovy
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Mammalia Primates:
 ---
+species: "Western gorilla"
+pet name: "Rino"
+class: "Mammalia" 
+family: "Hominidae"
+genus: "Gorilla"
+id: f381
+age: 31   
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Trees
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Red ruffed lemur"
+pet name: "Mimo"
+class: "Mammalia" 
+family: "Lemuridae"
+genus: "Varecia"
+id: f382
+age: 15   
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Trees
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Pileated gibbon"
+pet name: "Kira"
+class: "Mammalia" 
+family: "Hylobatidae"
+genus: "Hylobates"
+id: f383
+age: 9   
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Trees
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Pygmy slow loris"
+pet name: "Gucci"
+class: "Mammalia" 
+family: "Lorisidae"
+genus: "Lorinae"
+id: f384
+age: 7   
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Trees
+daily cycle: Night
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Wied's marmoset"
+pet name: "Lana"
+class: "Mammalia" 
+family: "Callitrichidae"
+genus: "Callithrix"
+id: f385
+age: 6   
+meal: Herbivores
+reproduction: Viviparous
+arial: Groovy, Trees
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 Reptilia Testudines:
 ---
+species: "Aldabra giant tortoise"
+pet name: "Baba Kapa"
+class: "Reptilia" 
+family: "Testudinidae"
+genus: "Aldabrachelys"
+id: f390
+age: 80   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Reptilia Crocodilia:
 ---
+species: "Black caiman"
+pet name: "Dez"
+class: "Reptilia" 
+family: "Alligatoridae"
+genus: "Melanosuchus"
+id: f401
+age: 31   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Gharial"
+pet name: "Dandi"
+class: "Reptilia" 
+family: "Gavialidae"
+genus: "Gavialis"
+id: f402
+age: 44   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Chinese alligator"
+pet name: "Kim"
+class: "Reptilia" 
+family: "Alligatoridae"
+genus: "Alligator"
+id: f403
+age: 56   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Reptilia Squamata:
 ---
+species: "Green anaconda"
+pet name: "Anna"
+class: "Reptilia" 
+family: "Boidae"
+genus: "Eunectes"
+id: f411
+age: 10   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water, Trees
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "King cobra"
+pet name: "Queen"
+class: "Reptilia" 
+family: "Elapidae"
+genus: "Ophiophagus"
+id: f412
+age: 19   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Trees, Water
+daily cycle: Day
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Reticulated python"
+pet name: "Piton"
+class: "Reptilia" 
+family: "Pythonidae"
+genus: "Malayopython"
+id: f413
+age: 21   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water, Trees
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Reptilia Varanidae:
 ---
+species: "Domodo dragon"
+pet name: "Cry"
+class: "Reptilia" 
+family: "Varanidae"
+genus: "Varanus"
+id: f421
+age: 21   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Trees
+daily cycle: Day, Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Amphibia Anura:
 ---
+species: "Midwife frog"
+pet name: "Mulo"
+class: "Amphibia" 
+family: "Alytidae"
+genus: "Alytes"
+id: f431
+age: 5   
+meal: Insects
+reproduction: Oviparous
+arial: Groovy, Trees
+daily cycle: Night
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 ---
+species: "Pumpkin toadlet"
+pet name: "Pump"
+class: "Amphibia" 
+family: "Brachycephalidae"
+genus: "Brachycephalus"
+id: f432
+age: 2   
+meal: Insects
+reproduction: Oviparous
+arial: Groovy, Trees
+daily cycle: Night
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Mexican burrowing toad"
+pet name: "Mexico"
+class: "Amphibia" 
+family: "Rhinophrynidae"
+genus: "Rhinophrynus"
+id: f433
+age: 6   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy
+daily cycle: Night
+flies: No
+lives underground: Yes
+floats: No
+habitat area size: n/a 
 ...
 Birds Sphenisciformes:
 ---
+species: "Emperor penguin"
+pet name: "Pigi"
+class: "Birds" 
+family: "Spheniscidae"
+genus: "Aptenodytes"
+id: f441
+age: 14   
+meal: Carnivora
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day
+flies: No
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Birds Accipitriformes:
 ---
+species: "Eurasian griffon vulture"
+pet name: "Vbivca"
+class: "Birds" 
+family: "Accipitridae"
+genus: "Gyps"
+id: f451
+age: 20   
+meal: Carnivora
+reproduction: Oviparous
+arial: Air, Groovy
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "King vulture"
+pet name: "Mozart"
+class: "Birds" 
+family: "Cathartidae"
+genus: "Sarcoramphus"
+id: f452
+age: 21   
+meal: Carnivora
+reproduction: Oviparous
+arial: Air, Groovy
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 Birds Struthioniformes:
 ---
+species: "Common ostrich"
+pet name: "Emo"
+class: "Birds" 
+family: "Struthionidae"
+genus: "Struthio"
+id: f461
+age: 30   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy
+daily cycle: Day
+flies: No
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 Birds Phoenicopteriformes:
 ---
+species: "Chilean flamingo"
+pet name: "Piri"
+class: "Birds" 
+family: "Phoenicopteridae"
+genus: "Phoenicopterus"
+id: f471
+age: 40   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy, Water
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: Yes
+habitat area size: n/a 
 ...
 Birds Psittacidae:
 ---
+species: "Blue-and-yellow macaw"
+pet name: "Rio"
+class: "Birds" 
+family: "Psittacidae"
+genus: "Ara"
+id: f481
+age: 29   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy, Air, Trees
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Nanday parakeet"
+pet name: "Kaef"
+class: "Birds" 
+family: "Psittacidae"
+genus: "Aratinga"
+id: f482
+age: 20   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy, Air, Trees
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 ---
+species: "Golden parakeet"
+pet name: "Persi"
+class: "Birds" 
+family: "Psittacidae"
+genus: "Arini"
+id: f483
+age: 15   
+meal: Herbivores
+reproduction: Oviparous
+arial: Groovy, Air, Trees
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 Birds Apodiformes:
 ---
+species: "Lesser violetear"
+pet name: "Lesly"
+class: "Birds" 
+family: "Trochilidae"
+genus: "Colibri"
+id: f491
+age: 2   
+meal: Insects
+reproduction: Oviparous
+arial: Groovy, Trees
+daily cycle: Day
+flies: Yes
+lives underground: No
+floats: No
+habitat area size: n/a 
 ...
 
 ---
