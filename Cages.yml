@@ -1,14 +1,120 @@
-# cage type: (Enclosure, Pasture, Aquarium, Stone Plain, Forest, Terrikon-Pond)
-# netting: Yes, No
+# cageId: <RIID>
+# cage type: (Stone Plain, Pasture, Arctic Forest, Tropical Forest, Terrikon-Pond,
+# Terrikon-Pond with jungle, Aquarium, Aquarium with ice plate, Enclosure) 
+# netting: true, false
 # square: <Numeric>?
 # geometry: <Collection:POINT>
 # height: <Numeric>? 
 # length: <Numeric>? 
 # width: <Numeric>? 
-# open to visit: Yes, No
-# id: <RIID>
+# open to visit: true, false
 
 ---
-Идентификатор: 1
-Тип клетки: Вольер 
-Укрытость сеткой: n/a
+cageId: c001
+cage type: "Stone Plain"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true 
+...
+---
+cageId: c002
+cage type: "Stone Plain"
+netting: true
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true 
+---
+cageId: c003
+cage type: "Pasture"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true 
+...
+---
+cageId: c004
+cage type: "Arctic Forest"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c005
+cage type: "Tropical Forest"
+netting: true
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c006
+cage type: "Tropical Forest"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c007
+cage type: "Terrikon-Pond"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c008
+cage type: "Terrikon-Pond with jungle"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c009
+cage type: "Aquarium"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
+---
+cageId: c010
+cage type: "Aquarium with ice plate"
+netting: false
+square: 
+geometry: 
+height: 
+length: 
+width: 
+open to visit: true
+...
