@@ -1,18 +1,17 @@
-# species: ""
+# species: "" <String>60
 # petName: ""
-# class: "" (Mammals, Amphibians, Reptiles, Birds, Fish)
-# family: <String>60
-# genus: <String>60
+# class: "" (Mammals, Amphibians, Reptiles, Birds) <String>60
+# family: "" <String>60
+# genus: "" <String>60
 # id: <RIID>
 # age: <Numeric>?       
-# meal: (Carnivora, Insects, Herbivores, Dry feed, Minerals)
-# reproduction: (Viviparous, Oviparous)
-# arial: (Groovy, Amphibian, Water, Trees, Air)
-# habitat: (Plain, Savannah, Sand, Rock, Swamp, Pond, Glacier, Forest, Jungle)
-# dailyCycle: (Day, Night)
-# flies: (Yes, No)
-# livesUnderground: (Yes, No)
-# floats: (Yes, No)
+# meal: "" (Carnivora, Insects, Herbivores) <String>60
+# reproduction: "" (Viviparous, Oviparous) <String>60
+# habitat: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle)
+# dailyCycle: (Day, Night, Morning, Evening)
+# flies: (true, false)
+# livesUnderground: (true, false)
+# floats: (true, false)
 # habitatAreaSize: <int> 
 
 # TODO: определить для всех Размер зоны обитания
@@ -176,7 +175,7 @@ age: 25
 meal: "Carnivora"
 reproduction: "Viviparous"
 arial: Glacier, Plain, Pond
-dailyCycle: Early Morning and Late Evening
+dailyCycle: Morning, Evening
 flies: false
 livesUnderground: false
 floats: true
@@ -193,7 +192,7 @@ age: 20
 meal: "Carnivora"
 reproduction: "Viviparous"
 arial: Plain, Pond, Forest
-dailyCycle: Early Morning and Late Evening
+dailyCycle: Morning, Evening
 flies: false
 livesUnderground: false
 floats: true
@@ -365,7 +364,7 @@ id: f346
 age: 36 
 meal: "Herbivores"
 reproduction: "Viviparous"
-arial: Savannah, Sand
+arial: Savannah
 dailyCycle: Day, Night
 flies: false
 livesUnderground: false
@@ -605,7 +604,7 @@ petName: "Baba Kapa"
 class: "Reptilia" 
 family: "Testudinidae"
 genus: "Aldabrachelys"
-id: f390
+id: f391
 age: 80   
 meal: "Herbivores"
 reproduction: "Oviparous"
@@ -627,7 +626,7 @@ id: f401
 age: 31   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian
+arial: Plain, Swamp
 dailyCycle: Day
 flies: false
 livesUnderground: false
@@ -644,7 +643,7 @@ id: f402
 age: 44   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian
+arial: Plain, Swamp
 dailyCycle: Day, Night
 flies: false
 livesUnderground: false
@@ -661,7 +660,7 @@ id: f403
 age: 56   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian
+arial: Plain, Swamp
 dailyCycle: Day, Night
 flies: false
 livesUnderground: false
@@ -679,7 +678,7 @@ id: f411
 age: 10   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian, Trees
+arial: Jungle, Pond
 dailyCycle: Day, Night
 flies: false
 livesUnderground: false
@@ -696,7 +695,7 @@ id: f412
 age: 19   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian, Trees
+arial: Jungle, Pond
 dailyCycle: Day
 flies: false
 livesUnderground: false
@@ -713,7 +712,7 @@ id: f413
 age: 21   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Amphibian, Trees
+arial: Jungle, Pond
 dailyCycle: Day, Night
 flies: false
 livesUnderground: false
@@ -783,7 +782,7 @@ id: f433
 age: 6   
 meal: "Herbivores"
 reproduction: "Oviparous"
-arial: Jungle, Sand
+arial: Jungle
 dailyCycle: Night
 flies: false
 livesUnderground: true
@@ -819,7 +818,7 @@ id: f451
 age: 20   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Air, Savannah
+arial: Savannah, Rock
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -836,7 +835,7 @@ id: f452
 age: 21   
 meal: "Carnivora"
 reproduction: "Oviparous"
-arial: Air, Savannah
+arial: Savannah, Rock, Forest
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -872,7 +871,7 @@ id: f471
 age: 40   
 meal: "Herbivores"
 reproduction: "Oviparous"
-arial: Savannah, Water
+arial: Savannah, Pond
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -890,7 +889,7 @@ id: f481
 age: 29   
 meal: "Herbivores"
 reproduction: "Oviparous"
-arial: Groovy, Air, Trees
+arial: Jungle
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -907,7 +906,7 @@ id: f482
 age: 20   
 meal: "Herbivores"
 reproduction: "Oviparous"
-arial: Groovy, Air, Trees
+arial: Jungle
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -924,7 +923,7 @@ id: f483
 age: 15   
 meal: "Herbivores"
 reproduction: "Oviparous"
-arial: Groovy, Air, Trees
+arial: Jungle
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -942,7 +941,7 @@ id: f491
 age: 2   
 meal: "Insects"
 reproduction: "Oviparous"
-arial: Groovy, Trees
+arial: Jungle
 dailyCycle: Day
 flies: true
 livesUnderground: false
@@ -950,6 +949,7 @@ floats: false
 habitatAreaSize: n/a 
 ...
 
+### Удалить:
 ---
 Название живтного: Черепаха
 Тип питания: Всеядные
