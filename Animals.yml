@@ -1,20 +1,20 @@
-# species: "" <String>60
-# petName: ""
-# class: "" (Mammals, Amphibians, Reptiles, Birds) <String>60
-# family: "" <String>60
-# genus: "" <String>60
+# species:  <String>60
+# petName: "" <String>60
+# class:  (Mammals, Amphibians, Reptiles, Birds) 
+# family:  "" <String>60   
 # id: <RIID>
 # age: <Numeric>?       
-# meal: "" (Carnivora, Insects, Herbivores) <String>60
-# reproduction: "" (Viviparous, Oviparous) <String>60
-# habitat: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle)
+# MealType:  (Carnivora, Insects, Herbivores) 
+# ReproductionType:  (Viviparous, Oviparous)
+# arial: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle) <Collection:STRING>
 # dailyCycle: (Day, Night, Morning, Evening)
-# flies: (true, false)
+# CanFly: (true, false)
 # livesUnderground: (true, false)
-# floats: (true, false)
-# habitatAreaSize: <int> 
+# CanSwim: (true, false)
 
-# TODO: определить для всех Размер зоны обитания
+# TODO: Delete atribute habitatareasize
+# TODO: remove genus atribute
+# TODO: move id atribute to first line of each entity
 
 # Mammalia Felidae:
 1.Капский Лев 2.Львица 3.Бенгальский Тигр 4.Флоридская пума 5.Яванский леопард 6.Чёрный ягуар
@@ -61,1285 +61,883 @@
 51.Колибри 
 
 Mammalia Felidae:
----
-species: "Lion melafalsechaita"
-petName: "Alex"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Panthera"
+--- 
 id: f123
+species: Lion melafalsechaita
+petName: Alex
+class: Mammalia 
+family: Felidae
 age: 10       
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Savannah
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: 2,1×1,3×1,3 метра
+CanSwim: true
 ...
 ---
-species: "Lioness"
-petName: "Lora"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Panthera"
 id: f124
+species: Lioness
+petName: Lora
+class: Mammalia 
+family: Felidae
 age: 9       
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Savannah
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: 2,1×1,3×1,3 метра
+CanSwim: true
 ...
 ---
-species: "Bengal tiger"
-petName: "Mr Credo"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Panthera"
+species: Bengal tiger
+petName: Mr Credo
+class: Mammalia 
+family: Felidae
+ Panthera
 id: f125
 age: 15       
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
+CanSwim: true
 habitatAreaSize: 2,1×1,3×1,3 метра
 ...
 ---
-species: "Florida panther"
-petName: "Florida"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Puma"
+species: Florida panther
+petName: Florida
+class: Mammalia 
+family: Felidae
 id: f126
 age: 8       
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
+CanSwim: true
 habitatAreaSize: К сожалению, я не могу предоставить конкретные размеры клетки для черной пантеры в зоопарке
 ...
 --- 
-species: "Javan leopard"
-petName: "Flesh"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Panthera"
+species: Javan leopard
+petName: Flesh
+class: Mammalia 
+family: Felidae
+ Panthera
 id: f127
 age: 12      
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Savannah
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
+CanSwim: true
 habitatAreaSize: 6,1м*2,7; 6,1*3; 6,1*3; 6,1*3; высота 2м
 ...
 ---
-species: "Black jaguar"
-petName: "Mamba"
-class: "Mammalia" 
-family: "Felidae"
-genus: "Panthera"
+species: Black jaguar
+petName: Mamba
+class: Mammalia 
+family: Felidae
+ Panthera
 id: f128
 age: 11   
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
+CanSwim: true
 habitatAreaSize: 
 ...
 Mammalia Ursidae:
 ---
-species: "Polar bear"
-petName: "Umka"
-class: "Mammalia" 
-family: "Ursidae"
-genus: "Ursus"
+species: Polar bear
+petName: Umka
+class: Mammalia 
+family: Ursidae
+ Ursus
 id: f134
 age: 25   
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Glacier, Plain, Pond
 dailyCycle: Morning, Evening
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
 ...
 ---
-species: "Grizzly bear"
-petName: "Alaska"
-class: "Mammalia" 
-family: "Ursidae"
-genus: "Ursus"
+species: Grizzly bear
+petName: Alaska
+class: Mammalia 
+family: Ursidae
+ Ursus
 id: f135
 age: 20  
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Plain, Pond, Forest
-dailyCycle: Morning, Evening
-flies: false
+dailyCycle: Morning
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
 ...
 ---
-species: "Asian black bear"
-petName: "Buddha"
-class: "Mammalia" 
-family: "Ursidae"
-genus: "Ursus"
+species: Asian black bear
+petName: Buddha
+class: Mammalia 
+family: Ursidae
+ Ursus
 id: f136
 age: 16   
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Plain, Pond, Forest
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a
+CanSwim: true
+
 ...
 ---
-species: "Giant panda"
-petName: "Gandi"
-class: "Mammalia" 
-family: "Ursidae"
-genus: "Ursus"
+species: Giant panda
+petName: Gandi
+class: Mammalia 
+family: Ursidae
+ Ursus
 id: f137
 age: 15   
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Jungle, Pond
 dailyCycle: Morning, Evening
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a
+CanSwim: true
+
 ...
 Mammalia Canidae:
 ---
-species: "Arctic wolf"
-petName: "Wolf"
-class: "Mammalia" 
-family: "Canidae"
-genus: "Canis"
+species: Arctic wolf
+petName: Wolf
+class: Mammalia 
+family: Canidae
+ Canis
 id: f228
 age: 6  
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Forest, Glacier
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Elephantidae:
 ---
-species: "Asiatic elephant"
-petName: "Jambo"
-class: "Mammalia" 
-family: "Elephantidae"
-genus: "Elephas"
+species: Asiatic elephant
+petName: Jambo
+class: Mammalia 
+family: Elephantidae
+ Elephas
 id: f331
 age: 55  
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle, Pond
 dailyCycle: Morning, Evening
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Artiodactyla:
 ---
-species: "European bison"
-petName: "Ivar"
-class: "Mammalia" 
-family: "Bovidae"
-genus: "Bison"
+species: European bison
+petName: Ivar
+class: Mammalia 
+family: Bovidae
+ Bison
 id: f341
 age: 16  
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Savannah, Pond
 dailyCycle: Morning, Evening
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Hippopotamus"
-petName: "Glory"
-class: "Mammalia" 
-family: "Hippopotamidae"
-genus: "Hippopotamus"
+species: Hippopotamus
+petName: Glory
+class: Mammalia 
+family: Hippopotamidae
+ Hippopotamus
 id: f342
 age: 46  
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle, Pond
 dailyCycle: Night, Morning
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Reticulated giraffe"
-petName: "Melman"
-class: "Mammalia" 
-family: "Giraffidae"
-genus: "Giraffa"
+species: Reticulated giraffe
+petName: Melman
+class: Mammalia 
+family: Giraffidae
+ Giraffa
 id: f343
 age: 19  
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Savannah
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Elk"
-petName: "ex"
-class: "Mammalia" 
-family: "Cervidae"
-genus: "Alces"
+species: Elk
+petName: ex
+class: Mammalia 
+family: Cervidae
+ Alces
 id: f344
 age: 15 
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Forest, Plate
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Red deer"
-petName: "King"
-class: "Mammalia" 
-family: "Cervidae"
-genus: "Cervus"
+species: Red deer
+petName: King
+class: Mammalia 
+family: Cervidae
+ Cervus
 id: f345
 age: 14
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Forest, Plate, Rock
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Bactrian camel"
-petName: "Zen"
-class: "Mammalia" 
-family: "Camelidae"
-genus: "Camelus"
+species: Bactrian camel
+petName: Zen
+class: Mammalia 
+family: Camelidae
+ Camelus
 id: f346
 age: 36 
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Savannah
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Mammalia Artiodactyla Delphinidae:
 ---
-species: "Bottlefalsese dolphins"
-petName: "Zoyberg"
-class: "Mammalia" 
-family: "Delphinidae"
-genus: "Tursiops"
+species: Bottlefalsese dolphins
+petName: Zoyberg
+class: Mammalia 
+family: Delphinidae
+ Tursiops
 id: f361
 age: 24 
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Water
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Orca"
-petName: "Wayder"
-class: "Mammalia" 
-family: "Delphinidae"
-genus: "Orcinus"
+species: Orca
+petName: Wayder
+class: Mammalia 
+family: Delphinidae
+ Orcinus
 id: f362
 age: 31 
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Water, Glacier
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Perissodactyla:
 ---
-species: "Black rhifalse"
-petName: "Roma"
-class: "Mammalia" 
-family: "Rhifalsecerotidae"
-genus: "Diceros"
+species: Black rhifalse
+petName: Roma
+class: Mammalia 
+family: Rhifalsecerotidae
+ Diceros
 id: f351
 age: 44 
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Savannah, Pond
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Mountain zebra"
-petName: "Gary"
-class: "Mammalia" 
-family: "Equidae"
-genus: "Equus"
+species: Mountain zebra
+petName: Gary
+class: Mammalia 
+family: Equidae
+ Equus
 id: f352
 age: 18 
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Savannah, Pond
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Malayan tapir"
-petName: "Coba"
-class: "Mammalia" 
-family: "Tapiridae"
-genus: "Tapirus"
+species: Malayan tapir
+petName: Coba
+class: Mammalia 
+family: Tapiridae
+ Tapirus
 id: f353
 age: 19
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle, Pond
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Pinnipedia:
 ---
-species: "Walrus"
-petName: "Ban"
-class: "Mammalia" 
-family: "Odobenidae"
-genus: "Odobenus"
+species: Walrus
+petName: Ban
+class: Mammalia 
+family: Odobenidae
+ Odobenus
 id: f371
 age: 26 
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Glacier, Plate, Water
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Spotted seal"
-petName: "Kitty"
-class: "Mammalia" 
-family: "Phocidae"
-genus: "Phoca"
+species: Spotted seal
+petName: Kitty
+class: Mammalia 
+family: Phocidae
+ Phoca
 id: f372
 age: 16 
-meal: "Carnivora"
-reproduction: "Viviparous"
+MealType: Carnivora
+ReproductionType: Viviparous
 arial: Glacier, Plate, Water
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Sirenia:
 ---
-species: "Amazonian manatee"
-petName: "Chudo"
-class: "Mammalia" 
-family: "Trichechidae"
-genus: "Trichechus"
+species: Amazonian manatee
+petName: Chudo
+class: Mammalia 
+family: Trichechidae
+ Trichechus
 id: f381
 age: 55 
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle, Water
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Mammalia Primates:
 ---
-species: "Western gorilla"
-petName: "Rifalse"
-class: "Mammalia" 
-family: "Hominidae"
-genus: "Gorilla"
+species: Western gorilla
+petName: Rifalse
+class: Mammalia 
+family: Hominidae
+ Gorilla
 id: f381
 age: 31   
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Red ruffed lemur"
-petName: "Mimo"
-class: "Mammalia" 
-family: "Lemuridae"
-genus: "Varecia"
+species: Red ruffed lemur
+petName: Mimo
+class: Mammalia 
+family: Lemuridae
+ Varecia
 id: f382
 age: 15   
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Pileated gibbon"
-petName: "Kira"
-class: "Mammalia" 
-family: "Hylobatidae"
-genus: "Hylobates"
+species: Pileated gibbon
+petName: Kira
+class: Mammalia 
+family: Hylobatidae
+ Hylobates
 id: f383
 age: 9   
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Pygmy slow loris"
-petName: "Gucci"
-class: "Mammalia" 
-family: "Lorisidae"
-genus: "Lorinae"
+species: Pygmy slow loris
+petName: Gucci
+class: Mammalia 
+family: Lorisidae
+ Lorinae
 id: f384
 age: 7   
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Wied's marmoset"
-petName: "Lana"
-class: "Mammalia" 
-family: "Callitrichidae"
-genus: "Callithrix"
+species: Wied's marmoset
+petName: Lana
+class: Mammalia 
+family: Callitrichidae
+ Callithrix
 id: f385
 age: 6   
-meal: "Herbivores"
-reproduction: "Viviparous"
+MealType: Herbivores
+ReproductionType: Viviparous
 arial: Jungle
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Reptilia Testudines:
 ---
-species: "Aldabra giant tortoise"
-petName: "Baba Kapa"
-class: "Reptilia" 
-family: "Testudinidae"
-genus: "Aldabrachelys"
+species: Aldabra giant tortoise
+petName: Baba Kapa
+class: Reptilia 
+family: Testudinidae
+ Aldabrachelys
 id: f391
 age: 80   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Jungle, Sand, Water
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Reptilia Crocodilia:
 ---
-species: "Black caiman"
-petName: "Dez"
-class: "Reptilia" 
-family: "Alligatoridae"
-genus: "Melafalsesuchus"
+species: Black caiman
+petName: Dez
+class: Reptilia 
+family: Alligatoridae
+ Melafalsesuchus
 id: f401
 age: 31   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Plain, Swamp
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Gharial"
-petName: "Dandi"
-class: "Reptilia" 
-family: "Gavialidae"
-genus: "Gavialis"
+species: Gharial
+petName: Dandi
+class: Reptilia 
+family: Gavialidae
+ Gavialis
 id: f402
 age: 44   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Plain, Swamp
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Chinese alligator"
-petName: "Kim"
-class: "Reptilia" 
-family: "Alligatoridae"
-genus: "Alligator"
+species: Chinese alligator
+petName: Kim
+class: Reptilia 
+family: Alligatoridae
+ Alligator
 id: f403
 age: 56   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Plain, Swamp
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Reptilia Squamata:
 ---
-species: "Green anaconda"
-petName: "Anna"
-class: "Reptilia" 
-family: "Boidae"
-genus: "Eunectes"
+species: Green anaconda
+petName: Anna
+class: Reptilia 
+family: Boidae
+ Eunectes
 id: f411
 age: 10   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Jungle, Pond
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "King cobra"
-petName: "Queen"
-class: "Reptilia" 
-family: "Elapidae"
-genus: "Ophiophagus"
+species: King cobra
+petName: Queen
+class: Reptilia 
+family: Elapidae
+ Ophiophagus
 id: f412
 age: 19   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Jungle, Pond
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Reticulated python"
-petName: "Piton"
-class: "Reptilia" 
-family: "Pythonidae"
-genus: "Malayopython"
+species: Reticulated python
+petName: Piton
+class: Reptilia 
+family: Pythonidae
+ Malayopython
 id: f413
 age: 21   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Jungle, Pond
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Reptilia Varanidae:
 ---
-species: "Domodo dragon"
-petName: "Cry"
-class: "Reptilia" 
-family: "Varanidae"
-genus: "Varanus"
+species: Domodo dragon
+petName: Cry
+class: Reptilia 
+family: Varanidae
+ Varanus
 id: f421
 age: 21   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Savannah
 dailyCycle: Day, Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Amphibia Anura:
 ---
-species: "Midwife frog"
-petName: "Mulo"
-class: "Amphibia" 
-family: "Alytidae"
-genus: "Alytes"
+species: Midwife frog
+petName: Mulo
+class: Amphibia 
+family: Alytidae
+ Alytes
 id: f431
 age: 5   
-meal: "Insects"
-reproduction: "Oviparous"
+MealType: Insects
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 ---
-species: "Pumpkin toadlet"
-petName: "Pump"
-class: "Amphibia" 
-family: "Brachycephalidae"
-genus: "Brachycephalus"
+species: Pumpkin toadlet
+petName: Pump
+class: Amphibia 
+family: Brachycephalidae
+ Brachycephalus
 id: f432
 age: 2   
-meal: "Insects"
-reproduction: "Oviparous"
+MealType: Insects
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Mexican burrowing toad"
-petName: "Mexico"
-class: "Amphibia" 
-family: "Rhifalsephrynidae"
-genus: "Rhifalsephrynus"
+species: Mexican burrowing toad
+petName: Mexico
+class: Amphibia 
+family: Rhifalsephrynidae
+ Rhifalsephrynus
 id: f433
 age: 6   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Night
-flies: false
+CanFly: false
 livesUnderground: true
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Birds Sphenisciformes:
 ---
-species: "Emperor penguin"
-petName: "Pigi"
-class: "Birds" 
-family: "Spheniscidae"
-genus: "Aptefalsedytes"
+species: Emperor penguin
+petName: Pigi
+class: Birds 
+family: Spheniscidae
+ Aptefalsedytes
 id: f441
 age: 14   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Groovy, Water
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Birds Accipitriformes:
 ---
-species: "Eurasian griffon vulture"
-petName: "Vbivca"
-class: "Birds" 
-family: "Accipitridae"
-genus: "Gyps"
+species: Eurasian griffon vulture
+petName: Vbivca
+class: Birds 
+family: Accipitridae
+ Gyps
 id: f451
 age: 20   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Savannah, Rock
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "King vulture"
-petName: "Mozart"
-class: "Birds" 
-family: "Cathartidae"
-genus: "Sarcoramphus"
+species: King vulture
+petName: Mozart
+class: Birds 
+family: Cathartidae
+ Sarcoramphus
 id: f452
 age: 21   
-meal: "Carnivora"
-reproduction: "Oviparous"
+MealType: Carnivora
+ReproductionType: Oviparous
 arial: Savannah, Rock, Forest
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Birds Struthioniformes:
 ---
-species: "Common ostrich"
-petName: "Emo"
-class: "Birds" 
-family: "Struthionidae"
-genus: "Struthio"
+species: Common ostrich
+petName: Emo
+class: Birds 
+family: Struthionidae
+ Struthio
 id: f461
 age: 30   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Savannah
 dailyCycle: Day
-flies: false
+CanFly: false
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Birds Phoenicopteriformes:
 ---
-species: "Chilean flamingo"
-petName: "Piri"
-class: "Birds" 
-family: "Phoenicopteridae"
-genus: "Phoenicopterus"
+species: Chilean flamingo
+petName: Piri
+class: Birds 
+family: Phoenicopteridae
+ Phoenicopterus
 id: f471
 age: 40   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Savannah, Pond
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: true
-habitatAreaSize: n/a 
+CanSwim: true
+ 
 ...
 Birds Psittacidae:
 ---
-species: "Blue-and-yellow macaw"
-petName: "Rio"
-class: "Birds" 
-family: "Psittacidae"
-genus: "Ara"
+species: Blue-and-yellow macaw
+petName: Rio
+class: Birds 
+family: Psittacidae
+ Ara
 id: f481
 age: 29   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Nanday parakeet"
-petName: "Kaef"
-class: "Birds" 
-family: "Psittacidae"
-genus: "Aratinga"
+species: Nanday parakeet
+petName: Kaef
+class: Birds 
+family: Psittacidae
+ Aratinga
 id: f482
 age: 20   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 ---
-species: "Golden parakeet"
-petName: "Persi"
-class: "Birds" 
-family: "Psittacidae"
-genus: "Arini"
+species: Golden parakeet
+petName: Persi
+class: Birds 
+family: Psittacidae
+ Arini
 id: f483
 age: 15   
-meal: "Herbivores"
-reproduction: "Oviparous"
+MealType: Herbivores
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
+CanSwim: false
+ 
 ...
 Birds Apodiformes:
 ---
-species: "Lesser violetear"
-petName: "Lesly"
-class: "Birds" 
-family: "Trochilidae"
-genus: "Colibri"
+species: Lesser violetear
+petName: Lesly
+class: Birds 
+family: Trochilidae
+ Colibri
 id: f491
 age: 2   
-meal: "Insects"
-reproduction: "Oviparous"
+MealType: Insects
+ReproductionType: Oviparous
 arial: Jungle
 dailyCycle: Day
-flies: true
+CanFly: true
 livesUnderground: false
-floats: false
-habitatAreaSize: n/a 
-...
-
-### Удалить:
----
-Название живтного: Черепаха
-Тип питания: Всеядные
-Вид: Рептилии
-Тип размножения: Яйцекладущие
-Ориал обитания: Земноводный
-Тип воды: Пресная и соленая
-Суточный цикл: Дневной
-Летает: Нет
-Название класса: Reptilia
-...
----
-Кенгуру:
-Тип питания: Травоядные
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Сухопутный
-Суточный цикл: Ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Кит:
-Тип питания: Планктоноядные (Baleen whales) или Плотоядные (Toothed whales)
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Вода
-Тип воды: Соленая
-Суточный цикл: Дневной и ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Дельфин:
-Тип питания: Плотоядные
-Вид : Млекопитающие
-Тип размножения : Живородящие
-Ориал обитания : Вода (Море и океан)
-Тип воды : Соленая и пресная (в зависимости от вида)
-Суточный цикл : Дневной и ночной
-Летает : Нет
-...
----
-Пингвин:
-Тип питания: Плотоядный1
-Вид: Птицы1
-Тип размножения: Яйцекладущие1
-Ориал обитания: Вода1
-Тип воды: Пресная и соленая1
-Суточный цикл: Дневной
-Летает: Нет
-Название класса: Aves
-...
----
-Слон:
-Тип питания: Травоядные2
-Вид: Млекопитающие2
-Тип размножения: Живородящие2
-Ориал обитания: Сухопутный2
-Суточный цикл: Дневной и ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Жираф:
-Тип питания: Травоядные3
-Вид: Млекопитающие3
-Тип размножения: Живородящие3
-Ориал обитания: Сухопутный3
-Суточный цикл: Дневной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Зебра:
-Тип питания: Травоядные4
-Вид: Млекопитающие4
-Тип размножения: Живородящие4
-Ориал обитания: Сухопутный4
-Суточный цикл: Дневной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Крокодил:
-Тип питания: Плотоядные5
-Вид : Рептилии5
-Тип размножения : Яйцекладущие5
-Ориал обитания : Земноводный (сухопутный и вода)5
-Тип воды : Пресная и соленая (в зависимости от вида)6
-Суточный цикл : Дневной и ночной
-Летает : Нет
-...
----
-Комодский варан:
-Тип питания: Плотоядный1
-Вид: Рептилии1
-Тип размножения: Яйцекладущие1
-Ориал обитания: Сухопутный1
-Суточный цикл: Дневной
-Летает: Нет
-Название класса: Reptilia
-...
----
-Коала:
-Тип питания: Травоядные2
-Вид: Млекопитающие2
-Тип размножения: Живородящие2
-Ориал обитания: Деревья2
-Суточный цикл: Ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Вомбат:
-Тип питания: Травоядные3
-Вид: Млекопитающие3
-Тип размножения: Живородящие3
-Ориал обитания: Сухопутный3
-Суточный цикл: Ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Енот:
-Тип питания: Всеядные1
-Вид : Млекопитающие1
-Тип размножения : Живородящие1
-Ориал обитания : Сухопутный и деревья1
-Суточный цикл : Ночной
-Летает : Нет
-...
----
-Бобер:
-Тип питания: Травоядные1
-Вид: Млекопитающие1
-Тип размножения: Живородящие1
-Ориал обитания: Вода1
-Суточный цикл: Ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Белка:
-Тип питания: Всеядные2
-Вид: Млекопитающие2
-Тип размножения: Живородящие2
-Ориал обитания: Деревья2
-Суточный цикл: Дневной
-Летает: Нет (за исключением некоторых видов летающих белок)
-Название класса: Mammalia
-...
----
-Лось:
-Тип питания: Травоядные3
-Вид: Млекопитающие3
-Тип размножения: Живородящие3
-Ориал обитания: Сухопутный3
-Суточный цикл: Дневной и ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Олень:
-Тип питания: Травоядные4
-Вид: Млекопитающие4
-Тип размножения: Живородящие4
-Ориал обитания: Сухопутный4
-Суточный цикл: Дневной и ночной
-Летает: Нет
-Название класса: Mammalia
-...
----
-Лиса:
-Тип питания: Всеядные5
-Вид : Млекопитающие5
-Тип размножения : Живородящие5
-Ориал обитания : Сухопутный и деревья5
-Суточный цикл : Ночной
-Летает : Нет
-...
----
-Волк:
-Тип питания: Плотоядный
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Сухопутный
-Тип Воды: Пресная
-Суточный цикл: Ночной
-Летает: Нет
-Название класса: Млекопитающие
-...
----
-Медведь:
-Тип питания: Всеядный
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Сухопутный, некоторые виды хорошо лазают по деревьям и плавают
-Тип Воды: Пресная
-Суточный цикл: Сумеречный (активен вечером и на рассвете)
-Летает: Нет
-Название класса: Млекопитающие
-...
----
-Бизон: Извините, но я не смог найти достаточно информации о бизоне.
-...
----
-Гиппопотам:
-Тип питания: Травоядный
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Земноводный (проводит большую часть времени в воде, выходя на сушу для кормёжки)
-Тип Воды: Пресная
-Суточный цикл: Ночной (активен ночью)
-Летает: Нет
-Название класса: Млекопитающие
-...
----
-Носорог:
-Тип питания: Травоядный
-Вид: Млекопитающие
-Тип размножения: Живородящие
-Ориал обитания: Сухопутный
-Тип Воды: Пресная
-Суточный цикл: Дневной и ночной (активность зависит от вида и местности)
-Летает: Нет
-Название класса: Млекопитающие
-...
----
-Название животного: Червонец
-Тип питания: Неизвестно
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Воздух
-Тип Воды: Не применимо
-Суточный цикл: Неизвестно
-Летает: Да
-Название класса: Птицы
-...
----
-Название животного: Павлин
-Тип питания: Травоядные
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Сухопутный, Деревья
-Тип Воды: Пресная
-Суточный цикл: Дневной
-Летает: Да
-Название класса: Птицы
-...
----
-Название животного: Фламинго
-Тип питания: Минералы (питаются мелкими водными организмами)
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Вода, Земноводный
-Тип Воды: Пресная, Соленая (в зависимости от места обитания)
-Суточный цикл: Дневной
-Летает: Да
-Название класса: Птицы
-...
----
-Название животного: Ара
-Тип питания: Фрукты, семена, орехи (Травоядные)
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Деревья, Воздух (тропические леса)
-Тип Воды: Пресная
-Суточный цикл: Дневной
-Летает: Да
-Название класса: Птицы
-...
----
-Название животного: Сова
-Тип питания: Плотоядный (главным образом грызуны и другие мелкие животные)
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Сухопутный, Деревья
-Тип Воды : Пресная
-Суточный цикл : Ночной
-Летает : Да
-Название класса : Птицы
-...
----
-Название животного: Орел
-Тип питания: Плотоядный
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Воздух, Деревья
-Тип Воды: Пресная, Соленая
-Суточный цикл: Дневной
-Летает: Да
-Название класа: Птицы
-...
----
-Название животного: Сокол
-Тип питания: Плотоядный
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Воздух, Деревья
-Тип Воды: Пресная, Соленая
-Суточный цикл: Дневной
-Летает: Да
-Название класа: Птицы
-...
----
-Название животного: Пеликан
-Тип питания: Рыбы
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Вода, Деревья
-Тип Воды: Пресная, Соленая
-Суточный цикл: Дневной
-Летает: Да
-Название класа: Птицы
-...
----
-Название животного: Тукан
-Тип питания: Фрукты, Насекомые
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Деревья, Воздух
-Тип Воды: Пресная, Соленая
-Суточный цикл: Дневной
-Летает: Да
-Название класа: Птицы
-...
----
-Название животного: Колибри
-Тип питания: Нектар цветов
-Вид : Птицы
-Тип размножения : Яйце кладущие
-Ориал обитания : Воздух, Деревья
-Тип Воды : Пресная
-Суточный цикл : Дневной
-Летает : Да
-Название класа : Птицы
-...
----
-Страус:
-Тип питания: Травоядные
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Сухопутный
-Тип Воды: Пресная
-Суточный цикл: Дневной
-Летает: Нет
-Название класа: Птицы
-...
----
-Эму:
-Тип питания: Травоядные
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Сухопутный
-Тип Воды: Пресная
-Суточный цикл: Дневной
-Летает: Нет
-Название класа: Птицы
-...
----
-Киви:
-Тип питания: Насекомые
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Сухопутный
-Тип Воды: Пресная
-Суточный цикл: Ночной
-Летает: Нет
-Название класа: Птицы
-...
----
-Пингвин:
-Тип питания: Плотоядный (рыба)
-Вид: Птицы
-Тип размножения: Яйце кладущие
-Ориал обитания: Вода и сухопутный (во время размножения)
-Тип Воды: Соленая
-Суточный цикл: Дневной
-Летает: Нет
-Название класа: Птицы
-...
----
-Аллигатор:
-Тип питания: Плотоядный (рыба, мелкие млекопитающие)
-Вид: Рептилии
-Тип размножения: Яйце кладущие
-Ориал обитания: Земноводный
-Тип Воды : Пресная
-Суточный цикл : Ночной
-Летает : Нет
-Название класа : Рептилии
+CanSwim: false
+ 
 ...

@@ -1,93 +1,105 @@
+### Stores unice idenificator of cage
 # cageId: <RIID>
-# cage type: (Stone Plain, Pasture, Arctic Forest, Tropical Forest, Terrikon-Pond,
-# Terrikon-Pond with jungle, Aquarium, Aquarium with ice plate, Enclosure) 
+# cage type: (StonePlain, Pasture, ArcticForest, TropicalForest, TerrikonPond,
+# JungleTerrikonPond, Aquarium, Aquariumiceplate, Enclosure) 
 # netting: true, false
+### Square of area in meters of square 
 # square: <Numeric>?
+### Stores points wich discrabes area,gps point
 # geometry: <Collection:POINT>
 # height: <Numeric>? 
 # length: <Numeric>? 
 # width: <Numeric>? 
+### Stores state of avalibilty to visitors
 # open to visit: true, false
-
+### Stores colection of identidiers of animals wich placed in thos area
+# animals <colection:RIID>
 ---
 cageId: c001
-cage type: "Stone Plain"
-netting: false
-square: 
-geometry: 
-height: 
-length: 
-width: 
+cage type: StonePlain
+netting: n/a
+square: 2500
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
 open to visit: true 
+animals: [ f123, f124]
 ...
 ---
 cageId: c002
-cage type: "Stone Plain"
+cage type: StonePlain
 netting: true
-square: 
-geometry: 
-height: 
-length: 
-width: 
+square: 1000
+geometry: [[],[],[]]
+height: n/a
+length: n/a
+width: n/a
 open to visit: true 
+animals:
 ---
 cageId: c003
-cage type: "Pasture"
+cage type: Pasture
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true 
+animals:
 ...
 ---
 cageId: c004
-cage type: "Arctic Forest"
+cage type: Arctic Forest
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c005
-cage type: "Tropical Forest"
+cage type: Tropical Forest
 netting: true
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c006
-cage type: "Tropical Forest"
+cage type: Tropical Forest
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c007
-cage type: "Terrikon-Pond"
+cage type: Terrikon-Pond
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c008
-cage type: "Terrikon-Pond with jungle"
+cage type: Terrikon-Pond with jungle
 netting: false
 square: 
 geometry: 
@@ -95,26 +107,29 @@ height:
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c009
-cage type: "Aquarium"
+cage type: Aquarium
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...
 ---
 cageId: c010
-cage type: "Aquarium with ice plate"
+cage type: Aquarium with ice plate
 netting: false
 square: 
-geometry: 
+geometry: [[],[],[]]
 height: 
 length: 
 width: 
 open to visit: true
+animals:
 ...

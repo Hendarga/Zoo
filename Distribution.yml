@@ -3,6 +3,6 @@ Animal Distribution
 # cageID: <RIID>
 # species: "" <String>60
 
-cageID: 
-species: ""
+cageID: с001
+species: [ f123, f124]
 
