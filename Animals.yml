@@ -1,5 +1,8 @@
+### Stores unique animal idenificator
 # species:  <String>60
+###Store a unique set of characters
 # petName: "" <String>60
+
 # class:  (Mammals, Amphibians, Reptiles, Birds) 
 # family:  "" <String>60   
 # id: <RIID>
@@ -849,7 +852,6 @@ species: Lesser violetear
 petName: Lesly
 class: Birds 
 family: Trochilidae
-
 age: 2   
 MealType: Insects
 ReproductionType: Oviparous

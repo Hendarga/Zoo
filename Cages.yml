@@ -1,7 +1,9 @@
-### Stores unice idenificator of cage
+### Stores unique idenificator of cage
 # cageId: <RIID>
+### Stores cage type
 # cage type: (StonePlain, Pasture, ArcticForest, TropicalForest, TerrikonPond,
 # JungleTerrikonPond, Aquarium, Aquariumiceplate, Enclosure) 
+###
 # netting: true, false
 ### Square of area in meters of square 
 # square: <Numeric>?
