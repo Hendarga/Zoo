@@ -1,9 +1,7 @@
-### Stores unique idenificator of cage
+### Stores unice idenificator of cage
 # cageId: <RIID>
-### Stores cage type
 # cage type: (StonePlain, Pasture, ArcticForest, TropicalForest, TerrikonPond,
 # JungleTerrikonPond, Aquarium, Aquariumiceplate, Enclosure) 
-###
 # netting: true, false
 ### Square of area in meters of square 
 # square: <Numeric>?
@@ -13,125 +11,425 @@
 # length: <Numeric>? 
 # width: <Numeric>? 
 ### Stores state of avalibilty to visitors
-# open to visit: true, false
+# OpenToVisit: true, false
 ### Stores colection of identidiers of animals wich placed in thos area
 # animals <colection:RIID>
 ---
-cageId: c001
-cage type: StonePlain
+CageId: c001
+CageType: StonePlain
 netting: n/a
 square: 2500
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
 length: n/a
 width: n/a
-open to visit: true 
+OpenToVisit: true 
 animals: [ f123, f124]
 ...
 ---
-cageId: c002
-cage type: StonePlain
-netting: true
+CageId: c002
+CageType: TropicalForestPond
+netting: n/a
 square: 1000
-geometry: [[],[],[]]
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
 length: n/a
 width: n/a
-open to visit: true 
-animals:
+OpenToVisit: true 
+animals: [f125]
 ---
-cageId: c003
-cage type: Pasture
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true 
-animals:
+CageId: c003
+CageType: TropicalForestPond
+netting: n/a
+square: 800
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f126]
 ...
 ---
-cageId: c004
-cage type: Arctic Forest
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c004
+CageType: StonePlain
+netting: n/a
+square: 1500
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f127]
 ...
 ---
-cageId: c005
-cage type: Tropical Forest
-netting: true
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c005
+CageType: TropicalForestPond
+netting: n/a
+square: 900
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f128]
 ...
 ---
-cageId: c006
-cage type: Tropical Forest
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c006
+CageType: AquariumIcePlate
+netting: n/a
+square: 900
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f134]
 ...
 ---
-cageId: c007
-cage type: Terrikon-Pond
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c007
+CageType: TropicalForestPond
+netting: n/a
+square: 900
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f126]
 ...
 ---
-cageId: c008
-cage type: Terrikon-Pond with jungle
-netting: false
-square: 
-geometry: 
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c008
+CageType: ArcticForestPond
+netting: n/a
+square: 800
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f135]
 ...
 ---
-cageId: c009
-cage type: Aquarium
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c009
+CageType: TropicalForestPond
+netting: n/a
+square: 800
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f136]
 ...
 ---
-cageId: c010
-cage type: Aquarium with ice plate
-netting: false
-square: 
-geometry: [[],[],[]]
-height: 
-length: 
-width: 
-open to visit: true
-animals:
+CageId: c010
+CageType: TropicalForestPond
+netting: n/a
+square: 800
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f137]
+...
+---
+CageId: c011
+CageType: ArcticForestPond
+netting: n/a
+square: 900
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f228]
+...
+---
+CageId: c012
+CageType: TropicalForestPond
+netting: n/a
+square: 2000
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f331, f353]
+...
+---
+CageId: c013
+CageType: PasturePond
+netting: n/a
+square: 600
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f341]
+...
+---
+CageId: c014
+CageType: TropicalForestPond
+netting: n/a
+square: 700
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f342]
+...
+---
+CageId: c015
+CageType: PasturePond
+netting: n/a
+square: 6000
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f343, f346, f351, f352, f461]
+...
+---
+CageId: c016
+CageType: ArcticForestPond
+netting: n/a
+square: 2000
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f344, f345]
+...
+---
+CageId: c017
+CageType: Aquarium
+netting: n/a
+square: 700
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f361]
+...
+---
+CageId: c018
+CageType: AquariumIcePlate
+netting: n/a
+square: 1000
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f362]
+...
+---
+CageId: c019
+CageType: AquariumIcePlate
+netting: n/a
+square: 400
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f371]
+...
+---
+CageId: c020
+CageType: AquariumIcePlate
+netting: n/a
+square: 400
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f372]
+...
+---
+CageId: c021
+CageType: AquariumJungleTerrikon
+netting: n/a
+square: 500
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f381]
+...
+---
+CageId: c022
+CageType: TropicalForestPond
+netting: n/a
+square: 3000
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f381, f382, f383, f384, f385]
+...
+---
+CageId: c023
+CageType: AquariumJungleTerrikon
+netting: n/a
+square: 500
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f391]
+...
+---
+CageId: c024
+CageType: TerrikonPond
+netting: n/a
+square: 300
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f401]
+...
+---
+CageId: c025
+CageType: TerrikonPond
+netting: n/a
+square: 700
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f402, f403]
+...
+---
+CageId: c026
+CageType: JungleTerrikonPond
+netting: n/a
+square: 300
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f411]
+...
+---
+CageId: c027
+CageType: JungleTerrikonPond
+netting: n/a
+square: 100
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f412]
+...
+---
+CageId: c028
+CageType: JungleTerrikonPond
+netting: n/a
+square: 300
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f413]
+...
+---
+CageId: c029
+CageType: StonePlain
+netting: n/a
+square: 200
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f421]
+...
+---
+CageId: c030
+CageType: TropicalForest
+netting: n/a
+square: 50
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f431, f432, f433]
+...
+---
+CageId: c031
+CageType: AquariumIcePlate
+netting: n/a
+square: 400
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f441]
+...
+---
+CageId: c032
+CageType: RockPlain
+netting: n/a
+square: 300
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f451]
+...
+---
+CageId: c033
+CageType: RockPlain
+netting: n/a
+square: 300
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f452]
+...
+---
+CageId: c034
+CageType: JungleTerrikonPond
+netting: n/a
+square: 200
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f471]
+...
+---
+CageId: c035
+CageType: TropicalForest
+netting: n/a
+square: 800
+geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
+height: n/a
+length: n/a
+width: n/a
+OpenToVisit: true 
+animals: [f481, f482, f483, f491]
 ...
