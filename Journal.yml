@@ -1,70 +1,12 @@
-# AddCage: CageId <REED>
-# DeleteCage: CageId <REED>
-# RegisterAnimal: 
-# - id: <REED>
-# - CageId: <REED>
-# UnregisterAnimal:
-# - id: <REED>
-# - CageId: <REED>
-# OpenToVisit: 
-# - CageId: <REED>
-# - value: true, false
-#EditAnimalProfile:
-# - id: <REED>
-# - species: <String>60
-# - petName: <String>60
-# - class: <String>60
-# - family: <String>60
-# - age: <Numeric>?      
-# - MealType: <String>60
-# - ReproductionType: <String>60
-# - arial: <Collection:STRING>
-# - DailyCycle: <String>60
-# - CanFly: true, false
-# - LivesUnderground: true, false
-# - CanSwim: true, false
-# MedicalAponiment:
-# - id: <REED>
-# - UserId: <REED>
-# CageService:
-# - CageId: <REED>
-# - UserId: <REED>
-
-AddCage: n/a
-
-DeleteCage: n/a
-
-RegisterAnimal: 
- - id: n/a
- - CageId: n/a
-
-UnregisterAnimal: 
- - id: n/a
- - CageId: n/a
-
-OpenToVisit: 
- - CageId: n/a
- - value: n/a
-
-EditAnimalProfile:
- - id: n/a
- - species: n/a
- - petName: n/a
- - class: n/a 
- - family: n/a
- - age: n/a       
- - MealType: n/a
- - ReproductionType: n/a
- - arial: n/a
- - DailyCycle: n/a
- - CanFly: n/a
- - LivesUnderground: n/a
- - CanSwim: n/a
-
-MedicalAponiment:
- - id: n/a
- - UserId: n/a
-
-CageService:
- - CageId: n/a
- - UserId: n/a
+### Uniqe id of Ivent
+# id: <RIID>
+### Time stamp when ivent happened 
+# Stamp: <DateTime>
+### Id of user who prossed that action 
+# UserId: <RIID>
+### Action description which init this ivent 
+# Action: <String>60
+### Type of entity which this action is adressed 
+# TargetEntityType: (Animal, Cage, User) 
+### Id of entity which this action is adressed 
+# TargetEntityId: <RIID>

@@ -1,29 +1,30 @@
 ### Stores unique animal idenificator
 # id: <RIID>
 ### Stores unique animal name
-# species:  <String>60
+# AnimalFamily:  <String>60
 ###Store a unique animal petname
 # petName: "" <String>60
 ### Stores unique animal class
-# class:  (Mammals, Amphibians, Reptiles, Birds) <String>60
+# class:  (Mammals, Amphibians, Reptiles, Birds)
 ### Stores unique animal family
 # family:  "" <String>60   
 ### Stores unique age of animal 
 # age: <Numeric>?
 ### Stores meal type of animal        
-# MealType:  (Carnivora, Insects, Herbivores) 
+# MealType:  (Carnivora, Insects, Herbivores) <Collection:Enum>
 ### Stores type of reproduction 
 # ReproductionType:  (Viviparous, Oviparous)
 ### Stores the arial 
-# arial: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle) <Collection:STRING>
+# arial: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle) <Collection:Enum>
 ### Stores daily cycle for animal
 # DailyCycle: (Day, Night, Morning, Evening)
 ### Stores definition for state of flying
-# CanFly: (true, false)
+# CanFly: true, false <boolean>
 ### Stores definition of state about living undrground
-# LivesUnderground: (true, false)
+# LivesUnderground: true, false <boolean>
 ### Stores definition for state of swimming   
-# CanSwim: (true, false)
+# CanSwim: <boolean>
+
 
 # Mammalia Felidae:
 1.Капский Лев 2.Львица 3.Бенгальский Тигр 4.Флоридская пума 5.Яванский леопард 6.Чёрный ягуар
@@ -72,7 +73,7 @@
 Mammalia Felidae:
 --- 
 id: f123
-species: Lion melafalsechaita
+AnimalFamily: Lion melafalsechaita
 petName: Alex
 class: Mammalia 
 family: Felidae
@@ -87,7 +88,7 @@ CanSwim: true
 ...
 ---
 id: f124
-species: Lioness
+AnimalFamily: Lioness
 petName: Lora
 class: Mammalia 
 family: Felidae
@@ -102,7 +103,7 @@ CanSwim: true
 ...
 ---
 id: f125
-species: Bengal tiger
+AnimalFamily: Bengal tiger
 petName: Mr Credo
 class: Mammalia 
 family: Felidae
@@ -117,7 +118,7 @@ CanSwim: true
 ...
 ---
 id: f126
-species: Florida panther
+AnimalFamily: Florida panther
 petName: Florida
 class: Mammalia 
 family: Felidae
@@ -132,7 +133,7 @@ CanSwim: true
 ...
 --- 
 id: f127
-species: Javan leopard
+AnimalFamily: Javan leopard
 petName: Flesh
 class: Mammalia 
 family: Felidae
@@ -147,7 +148,7 @@ CanSwim: true
 ...
 ---
 id: f128
-species: Black jaguar
+AnimalFamily: Black jaguar
 petName: Mamba
 class: Mammalia 
 family: Felidae
@@ -163,7 +164,7 @@ CanSwim: true
 Mammalia Ursidae:
 ---
 id: f134
-species: Polar bear
+AnimalFamily: Polar bear
 petName: Umka
 class: Mammalia 
 family: Ursidae
@@ -178,7 +179,7 @@ CanSwim: true
 ...
 ---
 id: f135
-species: Grizzly bear
+AnimalFamily: Grizzly bear
 petName: Alaska
 class: Mammalia 
 family: Ursidae
@@ -193,7 +194,7 @@ CanSwim: true
 ...
 ---
 id: f136
-species: Asian black bear
+AnimalFamily: Asian black bear
 petName: Buddha
 class: Mammalia 
 family: Ursidae
@@ -208,7 +209,7 @@ CanSwim: true
 ...
 ---
 id: f137
-species: Giant panda
+AnimalFamily: Giant panda
 petName: Gandi
 class: Mammalia 
 family: Ursidae
@@ -224,7 +225,7 @@ CanSwim: true
 Mammalia Canidae:
 ---
 id: f228
-species: Arctic wolf
+AnimalFamily: Arctic wolf
 petName: Wolf
 class: Mammalia 
 family: Canidae
@@ -240,7 +241,7 @@ CanSwim: true
 Mammalia Elephantidae:
 ---
 id: f331
-species: Asiatic elephant
+AnimalFamily: Asiatic elephant
 petName: Jambo
 class: Mammalia 
 family: Elephantidae
@@ -256,7 +257,7 @@ CanSwim: true
 Mammalia Artiodactyla:
 ---
 id: f341
-species: European bison
+AnimalFamily: European bison
 petName: Ivar
 class: Mammalia 
 family: Bovidae
@@ -271,7 +272,7 @@ CanSwim: false
 ...
 ---
 id: f342
-species: Hippopotamus
+AnimalFamily: Hippopotamus
 petName: Glory
 class: Mammalia 
 family: Hippopotamidae
@@ -286,7 +287,7 @@ CanSwim: true
 ...
 ---
 id: f343
-species: Reticulated giraffe
+AnimalFamily: Reticulated giraffe
 petName: Melman
 class: Mammalia 
 family: Giraffidae
@@ -301,7 +302,7 @@ CanSwim: false
 ...
 ---
 id: f344
-species: Elk
+AnimalFamily: Elk
 petName: ex
 class: Mammalia 
 family: Cervidae
@@ -316,7 +317,7 @@ CanSwim: true
 ...
 ---
 id: f345
-species: Red deer
+AnimalFamily: Red deer
 petName: King
 class: Mammalia 
 family: Cervidae
@@ -331,7 +332,7 @@ CanSwim: true
 ...
 ---
 id: f346
-species: Bactrian camel
+AnimalFamily: Bactrian camel
 petName: Zen
 class: Mammalia 
 family: Camelidae
@@ -347,7 +348,7 @@ CanSwim: false
 Mammalia Artiodactyla Delphinidae:
 ---
 id: f361
-species: Bottlefalsese dolphins
+AnimalFamily: Bottlefalsese dolphins
 petName: Zoyberg
 class: Mammalia 
 family: Delphinidae
@@ -362,7 +363,7 @@ CanSwim: true
 ...
 ---
 id: f362
-species: Orca
+AnimalFamily: Orca
 petName: Wayder
 class: Mammalia 
 family: Delphinidae
@@ -378,7 +379,7 @@ CanSwim: true
 Mammalia Perissodactyla:
 ---
 id: f351
-species: Black rhifalse
+AnimalFamily: Black rhifalse
 petName: Roma
 class: Mammalia 
 family: Rhifalsecerotidae
@@ -393,7 +394,7 @@ CanSwim: false
 ...
 ---
 id: f352
-species: Mountain zebra
+AnimalFamily: Mountain zebra
 petName: Gary
 class: Mammalia 
 family: Equidae
@@ -408,7 +409,7 @@ CanSwim: false
 ...
 ---
 id: f353
-species: Malayan tapir
+AnimalFamily: Malayan tapir
 petName: Coba
 class: Mammalia 
 family: Tapiridae
@@ -424,7 +425,7 @@ CanSwim: true
 Mammalia Pinnipedia:
 ---
 id: f371
-species: Walrus
+AnimalFamily: Walrus
 petName: Ban
 class: Mammalia 
 family: Odobenidae
@@ -439,7 +440,7 @@ CanSwim: true
 ...
 ---
 id: f372
-species: Spotted seal
+AnimalFamily: Spotted seal
 petName: Kitty
 class: Mammalia 
 family: Phocidae
@@ -455,7 +456,7 @@ CanSwim: true
 Mammalia Sirenia:
 ---
 id: f381
-species: Amazonian manatee
+AnimalFamily: Amazonian manatee
 petName: Chudo
 class: Mammalia 
 family: Trichechidae
@@ -471,7 +472,7 @@ CanSwim: true
 Mammalia Primates:
 ---
 id: f381
-species: Western gorilla
+AnimalFamily: Western gorilla
 petName: Rifalse
 class: Mammalia 
 family: Hominidae
@@ -486,7 +487,7 @@ CanSwim: false
 ...
 ---
 id: f382
-species: Red ruffed lemur
+AnimalFamily: Red ruffed lemur
 petName: Mimo
 class: Mammalia 
 family: Lemuridae
@@ -501,7 +502,7 @@ CanSwim: false
 ...
 ---
 id: f383
-species: Pileated gibbon
+AnimalFamily: Pileated gibbon
 petName: Kira
 class: Mammalia 
 family: Hylobatidae
@@ -516,7 +517,7 @@ CanSwim: false
 ...
 ---
 id: f384
-species: Pygmy slow loris
+AnimalFamily: Pygmy slow loris
 petName: Gucci
 class: Mammalia 
 family: Lorisidae
@@ -531,7 +532,7 @@ CanSwim: false
 ...
 ---
 id: f385
-species: Wied's marmoset
+AnimalFamily: Wied's marmoset
 petName: Lana
 class: Mammalia 
 family: Callitrichidae
@@ -547,7 +548,7 @@ CanSwim: false
 Reptilia Testudines:
 ---
 id: f391
-species: Aldabra giant tortoise
+AnimalFamily: Aldabra giant tortoise
 petName: Baba Kapa
 class: Reptilia 
 family: Testudinidae
@@ -563,7 +564,7 @@ CanSwim: true
 Reptilia Crocodilia:
 ---
 id: f401
-species: Black caiman
+AnimalFamily: Black caiman
 petName: Dez
 class: Reptilia 
 family: Alligatoridae
@@ -578,7 +579,7 @@ CanSwim: true
 ...
 ---
 id: f402
-species: Gharial
+AnimalFamily: Gharial
 petName: Dandi
 class: Reptilia 
 family: Gavialidae
@@ -593,7 +594,7 @@ CanSwim: true
 ...
 ---
 id: f403
-species: Chinese alligator
+AnimalFamily: Chinese alligator
 petName: Kim
 class: Reptilia 
 family: Alligatoridae
@@ -609,7 +610,7 @@ CanSwim: true
 Reptilia Squamata:
 ---
 id: f411
-species: Green anaconda
+AnimalFamily: Green anaconda
 petName: Anna
 class: Reptilia 
 family: Boidae
@@ -624,7 +625,7 @@ CanSwim: true
 ...
 ---
 id: f412
-species: King cobra
+AnimalFamily: King cobra
 petName: Queen
 class: Reptilia 
 family: Elapidae
@@ -639,7 +640,7 @@ CanSwim: true
 ...
 ---
 id: f413
-species: Reticulated python
+AnimalFamily: Reticulated python
 petName: Piton
 class: Reptilia 
 family: Pythonidae
@@ -655,7 +656,7 @@ CanSwim: true
 Reptilia Varanidae:
 ---
 id: f421
-species: Domodo dragon
+AnimalFamily: Domodo dragon
 petName: Cry
 class: Reptilia 
 family: Varanidae
@@ -671,7 +672,7 @@ CanSwim: true
 Amphibia Anura:
 ---
 id: f431
-species: Midwife frog
+AnimalFamily: Midwife frog
 petName: Mulo
 class: Amphibia 
 family: Alytidae
@@ -686,7 +687,7 @@ CanSwim: true
 ...
 ---
 id: f432
-species: Pumpkin toadlet
+AnimalFamily: Pumpkin toadlet
 petName: Pump
 class: Amphibia 
 family: Brachycephalidae
@@ -701,7 +702,7 @@ CanSwim: false
 ...
 ---
 id: f433
-species: Mexican burrowing toad
+AnimalFamily: Mexican burrowing toad
 petName: Mexico
 class: Amphibia 
 family: Rhifalsephrynidae
@@ -717,7 +718,7 @@ CanSwim: false
 Birds Sphenisciformes:
 ---
 id: f441
-species: Emperor penguin
+AnimalFamily: Emperor penguin
 petName: Pigi
 class: Birds 
 family: Spheniscidae
@@ -733,7 +734,7 @@ CanSwim: true
 Birds Accipitriformes:
 ---
 id: f451
-species: Eurasian griffon vulture
+AnimalFamily: Eurasian griffon vulture
 petName: Vbivca
 class: Birds 
 family: Accipitridae
@@ -748,7 +749,7 @@ CanSwim: false
 ...
 ---
 id: f452
-species: King vulture
+AnimalFamily: King vulture
 petName: Mozart
 class: Birds 
 family: Cathartidae
@@ -764,7 +765,7 @@ CanSwim: false
 Birds Struthioniformes:
 ---
 id: f461
-species: Common ostrich
+AnimalFamily: Common ostrich
 petName: Emo
 class: Birds 
 family: Struthionidae
@@ -780,7 +781,7 @@ CanSwim: false
 Birds Phoenicopteriformes:
 ---
 id: f471
-species: Chilean flamingo
+AnimalFamily: Chilean flamingo
 petName: Piri
 class: Birds 
 family: Phoenicopteridae
@@ -796,7 +797,7 @@ CanSwim: true
 Birds Psittacidae:
 ---
 id: f481
-species: Blue-and-yellow macaw
+AnimalFamily: Blue-and-yellow macaw
 petName: Rio
 class: Birds 
 family: Psittacidae
@@ -811,7 +812,7 @@ CanSwim: false
 ...
 ---
 id: f482
-species: Nanday parakeet
+AnimalFamily: Nanday parakeet
 petName: Kaef
 class: Birds 
 family: Psittacidae
@@ -826,7 +827,7 @@ CanSwim: false
 ...
 ---
 id: f483
-species: Golden parakeet
+AnimalFamily: Golden parakeet
 petName: Persi
 class: Birds 
 family: Psittacidae
@@ -842,7 +843,7 @@ CanSwim: false
 Birds Apodiformes:
 ---
 id: f491
-species: Lesser violetear
+AnimalFamily: Lesser violetear
 petName: Lesly
 class: Birds 
 family: Trochilidae

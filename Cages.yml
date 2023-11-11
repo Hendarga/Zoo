@@ -1,37 +1,40 @@
 ### Stores unique idenificator of cage
 # cageId: <RIID>
+### Friendly name of cages for visitors and employee. It helps to users navigating 
+# Allias: <String>60 
 ### Stores type of cages
-# cage type: (StonePlain, Pasture, ArcticForest, TropicalForest, TerrikonPond,
-# JungleTerrikonPond, Aquarium, Aquariumiceplate, Enclosure) 
-### Stores the value of the netting
-# netting: true, false
+# CageType: (StonePlain, Pasture, ArcticForest, TropicalForest, TerrikonPond,
+# JungleTerrikonPond, Aquarium, Aquariumiceplate, Enclosure) <Collection:Enum>
+### Stores the value of the HasNet
+# HasNet:  <boolean>?
 ### Square of area in meters of square 
-# square: <Numeric>?
+# square: <Numeric>
 ### Stores points wich discrabes area, gps point
 # geometry: <Collection:POINT>
 # height: <Numeric>? 
 # length: <Numeric>? 
 # width: <Numeric>? 
 ### Stores state of avalibilty to visitors
-# OpenToVisit: true, false
+# OpenToVisit:  <boolean>
 ### Stores colection of identidiers of animals wich placed in thos area
 # animals: <colection:RIID>
 ---
 CageId: c001
-CageType: StonePlain
-netting: n/a  
+Allias: 
+CageType: [StonePlain]
+HasNet: n/a  
 square: 2500
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
 length: n/a
 width: n/a
 OpenToVisit: true 
-animals: [ f123, f124]
+animals: [f123, f124]
 ...
 ---
 CageId: c002
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 1000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -42,7 +45,7 @@ animals: [f125]
 ---
 CageId: c003
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 800
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -54,7 +57,7 @@ animals: [f126]
 ---
 CageId: c004
 CageType: StonePlain
-netting: n/a
+HasNet: n/a
 square: 1500
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -66,7 +69,7 @@ animals: [f127]
 ---
 CageId: c005
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 900
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -78,7 +81,7 @@ animals: [f128]
 ---
 CageId: c006
 CageType: AquariumIcePlate
-netting: n/a
+HasNet: n/a
 square: 900
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -90,7 +93,7 @@ animals: [f134]
 ---
 CageId: c007
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 900
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -102,7 +105,7 @@ animals: [f126]
 ---
 CageId: c008
 CageType: ArcticForestPond
-netting: n/a
+HasNet: n/a
 square: 800
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -114,7 +117,7 @@ animals: [f135]
 ---
 CageId: c009
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 800
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -126,7 +129,7 @@ animals: [f136]
 ---
 CageId: c010
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 800
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -138,7 +141,7 @@ animals: [f137]
 ---
 CageId: c011
 CageType: ArcticForestPond
-netting: n/a
+HasNet: n/a
 square: 900
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -150,7 +153,7 @@ animals: [f228]
 ---
 CageId: c012
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 2000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -162,7 +165,7 @@ animals: [f331, f353]
 ---
 CageId: c013
 CageType: PasturePond
-netting: n/a
+HasNet: n/a
 square: 600
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -174,7 +177,7 @@ animals: [f341]
 ---
 CageId: c014
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 700
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -186,7 +189,7 @@ animals: [f342]
 ---
 CageId: c015
 CageType: PasturePond
-netting: n/a
+HasNet: n/a
 square: 6000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -198,7 +201,7 @@ animals: [f343, f346, f351, f352, f461]
 ---
 CageId: c016
 CageType: ArcticForestPond
-netting: n/a
+HasNet: n/a
 square: 2000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -210,7 +213,7 @@ animals: [f344, f345]
 ---
 CageId: c017
 CageType: Aquarium
-netting: n/a
+HasNet: n/a
 square: 700
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -222,7 +225,7 @@ animals: [f361]
 ---
 CageId: c018
 CageType: AquariumIcePlate
-netting: n/a
+HasNet: n/a
 square: 1000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -234,7 +237,7 @@ animals: [f362]
 ---
 CageId: c019
 CageType: AquariumIcePlate
-netting: n/a
+HasNet: n/a
 square: 400
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -246,7 +249,7 @@ animals: [f371]
 ---
 CageId: c020
 CageType: AquariumIcePlate
-netting: n/a
+HasNet: n/a
 square: 400
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -258,7 +261,7 @@ animals: [f372]
 ---
 CageId: c021
 CageType: AquariumJungleTerrikon
-netting: n/a
+HasNet: n/a
 square: 500
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -270,7 +273,7 @@ animals: [f381]
 ---
 CageId: c022
 CageType: TropicalForestPond
-netting: n/a
+HasNet: n/a
 square: 3000
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -282,7 +285,7 @@ animals: [f381, f382, f383, f384, f385]
 ---
 CageId: c023
 CageType: AquariumJungleTerrikon
-netting: n/a
+HasNet: n/a
 square: 500
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -294,7 +297,7 @@ animals: [f391]
 ---
 CageId: c024
 CageType: TerrikonPond
-netting: n/a
+HasNet: n/a
 square: 300
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -306,7 +309,7 @@ animals: [f401]
 ---
 CageId: c025
 CageType: TerrikonPond
-netting: n/a
+HasNet: n/a
 square: 700
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -318,7 +321,7 @@ animals: [f402, f403]
 ---
 CageId: c026
 CageType: JungleTerrikonPond
-netting: n/a
+HasNet: n/a
 square: 300
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -330,7 +333,7 @@ animals: [f411]
 ---
 CageId: c027
 CageType: JungleTerrikonPond
-netting: n/a
+HasNet: n/a
 square: 100
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -342,7 +345,7 @@ animals: [f412]
 ---
 CageId: c028
 CageType: JungleTerrikonPond
-netting: n/a
+HasNet: n/a
 square: 300
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -354,7 +357,7 @@ animals: [f413]
 ---
 CageId: c029
 CageType: StonePlain
-netting: n/a
+HasNet: n/a
 square: 200
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -366,7 +369,7 @@ animals: [f421]
 ---
 CageId: c030
 CageType: TropicalForest
-netting: n/a
+HasNet: n/a
 square: 50
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -378,7 +381,7 @@ animals: [f431, f432, f433]
 ---
 CageId: c031
 CageType: AquariumIcePlate
-netting: n/a
+HasNet: n/a
 square: 400
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -390,7 +393,7 @@ animals: [f441]
 ---
 CageId: c032
 CageType: RockPlain
-netting: n/a
+HasNet: n/a
 square: 300
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -402,7 +405,7 @@ animals: [f451]
 ---
 CageId: c033
 CageType: RockPlain
-netting: n/a
+HasNet: n/a
 square: 300
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -414,7 +417,7 @@ animals: [f452]
 ---
 CageId: c034
 CageType: JungleTerrikonPond
-netting: n/a
+HasNet: n/a
 square: 200
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
@@ -426,7 +429,7 @@ animals: [f471]
 ---
 CageId: c035
 CageType: TropicalForest
-netting: n/a
+HasNet: n/a
 square: 800
 geometry: [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]]
 height: n/a
