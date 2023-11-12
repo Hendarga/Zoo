@@ -1,7 +1,7 @@
 ### Stores unique idenificator of Cage
 # CageId: <RIID>
 ### Friendly name of Cages for visitors and employee. It helps to users navigating 
-# Allias: "" <String>60 
+# Alias: "" <String>60 
 ### Stores type of Cages
 # CageType: (Stone, Plain, Pasture, ArcticForest, Terrikon, Pond, Jungle, Aquarium, IcePlate, Rock) <Collection:Enum>
 ### Stores the value of the HasNet
@@ -19,7 +19,7 @@
 # Animals: <Colection:RIID>
 ---
 CageId: c001
-Allias: "Lions Kingdom"
+Alias: "Lions Kingdom"
 CageType: [Stone, Plain]
 HasNet: n/a  
 Square: 2500
@@ -32,7 +32,7 @@ Animals: [f123, f124]
 ...
 ---
 CageId: c002
-Allias: "Eldorado"
+Alias: "Eldorado"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 1000
@@ -44,7 +44,7 @@ OpenToVisit: true
 Animals: [f125]
 ---
 CageId: c003
-Allias: "Abode of the panther"
+Alias: "Abode of the panther"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 800
@@ -57,7 +57,7 @@ Animals: [f126]
 ...
 ---
 CageId: c004
-Allias: "Leopardy Forest"
+Alias: "Leopardy Forest"
 CageType: [Stone, Plain]
 HasNet: n/a
 Square: 1500
@@ -70,7 +70,7 @@ Animals: [f127]
 ...
 ---
 CageId: c005
-Allias: "Jaguar Ark"
+Alias: "Jaguar Ark"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 900
@@ -83,7 +83,7 @@ Animals: [f128]
 ...
 ---
 CageId: c006
-Allias: "Northern Expanses"
+Alias: "Northern Expanses"
 CageType: [Aquarium, IcePlate]
 HasNet: n/a
 Square: 900
@@ -96,7 +96,7 @@ Animals: [f134]
 ...
 ---
 CageId: c008
-Allias: "Grizzly Harbor"
+Alias: "Grizzly Harbor"
 CageType: [ArcticForest, Pond]
 HasNet: n/a
 Square: 800
@@ -109,7 +109,7 @@ Animals: [f135]
 ...
 ---
 CageId: c009
-Allias: "Himalayan Bastion"
+Alias: "Himalayan Bastion"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 800
@@ -122,7 +122,7 @@ Animals: [f136]
 ...
 ---
 CageId: c010
-Allias: "Tranquility Panda"
+Alias: "Tranquility Panda"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 800
@@ -135,7 +135,7 @@ Animals: [f137]
 ...
 ---
 CageId: c011
-Allias: "Wolf’s Island House"
+Alias: "Wolf’s Island House"
 CageType: [ArcticForest, Pond]
 HasNet: n/a
 Square: 900
@@ -148,7 +148,7 @@ Animals: [f228]
 ...
 ---
 CageId: c012
-Allias: "Kingdom"
+Alias: "Kingdom"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 2000
@@ -161,7 +161,7 @@ Animals: [f331, f353]
 ...
 ---
 CageId: c013
-Allias: "Serration Steppe"
+Alias: "Serration Steppe"
 CageType: [Pasture, Pond]
 HasNet: n/a
 Square: 600
@@ -174,7 +174,7 @@ Animals: [f341]
 ...
 ---
 CageId: c014
-Allias: "Hippopotamus Havana"
+Alias: "Hippopotamus Havana"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 700
@@ -187,7 +187,7 @@ Animals: [f342]
 ...
 ---
 CageId: c015
-Allias: "Fabulous Savannah"
+Alias: "Fabulous Savannah"
 CageType: [Pasture, Pond]
 HasNet: n/a
 Square: 6000
@@ -200,7 +200,7 @@ Animals: [f343, f346, f351, f352, f461]
 ...
 ---
 CageId: c016
-Allias: "Forest Castle"
+Alias: "Forest Castle"
 CageType: [ArcticForest, Pond]
 HasNet: n/a
 Square: 2000
@@ -213,7 +213,7 @@ Animals: [f344, f345]
 ...
 ---
 CageId: c017
-Allias: "Delphic Bay"
+Alias: "Delphic Bay"
 CageType: [Aquarium]
 HasNet: n/a
 Square: 700
@@ -226,7 +226,7 @@ Animals: [f361]
 ...
 ---
 CageId: c018
-Allias: "Gateway"
+Alias: "Gateway"
 CageType: [Aquarium, IcePlate]
 HasNet: n/a
 Square: 1000
@@ -239,7 +239,7 @@ Animals: [f362]
 ...
 ---
 CageId: c019
-Allias: "Walrus Beret"
+Alias: "Walrus Beret"
 CageType: [Aquarium, IcePlate]
 HasNet: n/a
 Square: 400
@@ -252,7 +252,7 @@ Animals: [f371]
 ...
 ---
 CageId: c020
-Allias: "Seal Fjord"
+Alias: "Seal Fjord"
 CageType: [Aquarium, IcePlate]
 HasNet: n/a
 Square: 400
@@ -265,7 +265,7 @@ Animals: [f372]
 ...
 ---
 CageId: c021
-Allias: "Manatee Atoll"
+Alias: "Manatee Atoll"
 CageType: [Aquarium, Jungle, Terrikon]
 HasNet: n/a
 Square: 500
@@ -278,7 +278,7 @@ Animals: [f381]
 ...
 ---
 CageId: c022
-Allias: "Primate House"
+Alias: "Primate House"
 CageType: [Jungle, Pond]
 HasNet: n/a
 Square: 3000
@@ -291,7 +291,7 @@ Animals: [f381, f382, f383, f384, f385]
 ...
 ---
 CageId: c023
-Allias: "Turtle Grotto"
+Alias: "Turtle Grotto"
 CageType: [Aquarium, Jungle, Terrikon]
 HasNet: n/a
 Square: 500
@@ -304,7 +304,7 @@ Animals: [f391]
 ...
 ---
 CageId: c024
-Allias: "Cayman Laguna"
+Alias: "Cayman Laguna"
 CageType: [Terrikon, Pond]
 HasNet: n/a
 Square: 300
@@ -317,7 +317,7 @@ Animals: [f401]
 ...
 ---
 CageId: c025
-Allias: "Crocodile Archipelago"
+Alias: "Crocodile Archipelago"
 CageType: [Terrikon, Pond]
 HasNet: n/a
 Square: 700
@@ -330,7 +330,7 @@ Animals: [f402, f403]
 ...
 ---
 CageId: c026
-Allias: "Anacondic Maze"
+Alias: "Anacondic Maze"
 CageType: [Jungle, Terrikon, Pond]
 HasNet: n/a
 Square: 300
@@ -343,7 +343,7 @@ Animals: [f411]
 ...
 ---
 CageId: c027
-Allias: "Cobra House"
+Alias: "Cobra House"
 CageType: [Jungle, Terrikon, Pond]
 HasNet: n/a
 Square: 100
@@ -356,7 +356,7 @@ Animals: [f412]
 ...
 ---
 CageId: c028
-Allias: "Python Corner"
+Alias: "Python Corner"
 CageType: "Jungle, Terrikon, Pond"
 HasNet: n/a
 Square: 300
@@ -369,7 +369,7 @@ Animals: [f413]
 ...
 ---
 CageId: c029
-Allias: "Varan Plain"
+Alias: "Varan Plain"
 CageType: [Stone, Plain]
 HasNet: n/a
 Square: 200
@@ -382,7 +382,7 @@ Animals: [f421]
 ...
 ---
 CageId: c030
-Allias: "Nosy Oasis"
+Alias: "Nosy Oasis"
 CageType: [Jungle]
 HasNet: n/a
 Square: 50
@@ -395,7 +395,7 @@ Animals: [f431, f432, f433]
 ...
 ---
 CageId: c031
-Allias: "Penguin Continent"
+Alias: "Penguin Continent"
 CageType: [Aquarium, IcePlate]
 HasNet: n/a
 Square: 400
@@ -408,7 +408,7 @@ Animals: [f441]
 ...
 ---
 CageId: c032
-Allias: "Sippy Grove"
+Alias: "Sippy Grove"
 CageType: [Rock, Plain]
 HasNet: n/a
 Square: 300
@@ -421,7 +421,7 @@ Animals: [f451]
 ...
 ---
 CageId: c033
-Allias: "Vulture Top"
+Alias: "Vulture Top"
 CageType: [Rock, Plain]
 HasNet: n/a
 Square: 300
@@ -434,7 +434,7 @@ Animals: [f452]
 ...
 ---
 CageId: c034
-Allias: "Flamingo Boulevard"
+Alias: "Flamingo Boulevard"
 CageType: [Jungle, Terrikon, Pond]
 HasNet: n/a
 Square: 200
@@ -447,7 +447,7 @@ Animals: [f471]
 ...
 ---
 CageId: c035
-Allias: "Parrot Eden"
+Alias: "Parrot Eden"
 CageType: [Jungle]
 HasNet: n/a
 Square: 800
@@ -460,7 +460,7 @@ Animals: [f481, f482, f483]
 ...
 ---
 CageId: c036
-Allias: "Hummingbird Garden"
+Alias: "Hummingbird Garden"
 CageType: [Jungle]
 HasNet: n/a
 Square: 50
