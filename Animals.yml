@@ -1,29 +1,27 @@
 ### Stores unique animal idenificator
 # id: <RIID>
 ### Stores unique animal name
-# AnimalFamily:  <String>60
+# AnimalFamily: "" <String>60
 ###Store a unique animal petname
 # petName: "" <String>60
-### Stores unique animal class
-# class:  (Mammals, Amphibians, Reptiles, Birds)
-### Stores unique animal family
-# family:  "" <String>60   
-### Stores unique age of animal 
-# age: <Numeric>?
+### Stores unique animal Class
+# Class: (Mammals, Amphibians, Reptiles, Birds) -
+### Stores unique Age of animal 
+# Age: <Numeric>
 ### Stores meal type of animal        
-# MealType:  (Carnivora, Insects, Herbivores) <Collection:Enum>
+# MealType: (Carnivora, Insects, Herbivores) <Collection:Enum>
 ### Stores type of reproduction 
-# ReproductionType:  (Viviparous, Oviparous)
-### Stores the arial 
-# arial: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle) <Collection:Enum>
+# ReproductionType:  (Viviparous, Oviparous) -
+### Stores the Arial 
+# Arial: (Plain, Savannah, Rock, Swamp, Pond, Water, Glacier, Forest, Jungle) <Collection:Enum>
 ### Stores daily cycle for animal
-# DailyCycle: (Day, Night, Morning, Evening)
+# DailyCycle: (Day, Night, Morning, Evening) -
 ### Stores definition for state of flying
-# CanFly: true, false <boolean>
+# CanFly: <Boolean>
 ### Stores definition of state about living undrground
-# LivesUnderground: true, false <boolean>
+# LivesUnderground: <Boolean>
 ### Stores definition for state of swimming   
-# CanSwim: <boolean>
+# CanSwim: <Boolean>
 
 
 # Mammalia Felidae:
@@ -73,14 +71,13 @@
 Mammalia Felidae:
 --- 
 id: f123
-AnimalFamily: Lion melafalsechaita
-petName: Alex
-class: Mammalia 
-family: Felidae
-age: 10       
-MealType: Carnivora
+AnimalFamily: "Lion melafalsechaita"
+petName: "Alex"
+Class: Mammalia 
+Age: 10       
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -88,14 +85,13 @@ CanSwim: true
 ...
 ---
 id: f124
-AnimalFamily: Lioness
-petName: Lora
-class: Mammalia 
-family: Felidae
-age: 9       
-MealType: Carnivora
+AnimalFamily: "Lioness"
+petName: "Lora"
+Class: Mammalia 
+Age: 9       
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -103,14 +99,13 @@ CanSwim: true
 ...
 ---
 id: f125
-AnimalFamily: Bengal tiger
-petName: Mr Credo
-class: Mammalia 
-family: Felidae
-age: 15       
-MealType: Carnivora
+AnimalFamily: "Bengal tiger"
+petName: "Mr Credo"
+Class: Mammalia 
+Age: 15       
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -118,14 +113,13 @@ CanSwim: true
 ...
 ---
 id: f126
-AnimalFamily: Florida panther
-petName: Florida
-class: Mammalia 
-family: Felidae
-age: 8       
-MealType: Carnivora
+AnimalFamily: "Florida panther"
+petName: "Florida"
+Class: Mammalia 
+Age: 8       
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -133,14 +127,13 @@ CanSwim: true
 ...
 --- 
 id: f127
-AnimalFamily: Javan leopard
-petName: Flesh
-class: Mammalia 
-family: Felidae
-age: 12      
-MealType: Carnivora
+AnimalFamily: "Javan leopard"
+petName: "Flesh"
+Class: Mammalia 
+Age: 12      
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -148,14 +141,13 @@ CanSwim: true
 ...
 ---
 id: f128
-AnimalFamily: Black jaguar
-petName: Mamba
-class: Mammalia 
-family: Felidae
-age: 11   
-MealType: Carnivora
+AnimalFamily: "Black jaguar"
+petName: "Mamba"
+Class: Mammalia 
+Age: 11   
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -164,14 +156,13 @@ CanSwim: true
 Mammalia Ursidae:
 ---
 id: f134
-AnimalFamily: Polar bear
-petName: Umka
-class: Mammalia 
-family: Ursidae
-age: 25   
-MealType: Carnivora
+AnimalFamily: "Polar bear"
+petName: "Umka"
+Class: Mammalia 
+Age: 25   
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Glacier, Plain, Pond]
+Arial: [Glacier, Plain, Pond]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -179,14 +170,13 @@ CanSwim: true
 ...
 ---
 id: f135
-AnimalFamily: Grizzly bear
-petName: Alaska
-class: Mammalia 
-family: Ursidae
-age: 20  
-MealType: Carnivora
+AnimalFamily: "Grizzly bear"
+petName: "Alaska"
+Class: Mammalia 
+Age: 20  
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Plain, Pond, Forest]
+Arial: [Plain, Pond, Forest]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -194,14 +184,13 @@ CanSwim: true
 ...
 ---
 id: f136
-AnimalFamily: Asian black bear
-petName: Buddha
-class: Mammalia 
-family: Ursidae
-age: 16   
-MealType: Carnivora
+AnimalFamily: "Asian black bear"
+petName: "Buddha"
+Class: Mammalia 
+Age: 16   
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Plain, Pond, Forest]
+Arial: [Plain, Pond, Forest]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -209,14 +198,13 @@ CanSwim: true
 ...
 ---
 id: f137
-AnimalFamily: Giant panda
-petName: Gandi
-class: Mammalia 
-family: Ursidae
-age: 15   
-MealType: Carnivora
+AnimalFamily: "Giant panda"
+petName: "Gandi"
+Class: Mammalia 
+Age: 15   
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -225,14 +213,13 @@ CanSwim: true
 Mammalia Canidae:
 ---
 id: f228
-AnimalFamily: Arctic wolf
-petName: Wolf
-class: Mammalia 
-family: Canidae
-age: 6  
-MealType: Carnivora
+AnimalFamily: "Arctic wolf"
+petName: "Wolf"
+Class: Mammalia 
+Age: 6  
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Forest, Glacier]
+Arial: [Forest, Glacier]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -241,14 +228,13 @@ CanSwim: true
 Mammalia Elephantidae:
 ---
 id: f331
-AnimalFamily: Asiatic elephant
-petName: Jambo
-class: Mammalia 
-family: Elephantidae
-age: 55  
-MealType: Herbivores
+AnimalFamily: "Asiatic elephant"
+petName: "Jambo"
+Class: Mammalia 
+Age: 55  
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -257,14 +243,13 @@ CanSwim: true
 Mammalia Artiodactyla:
 ---
 id: f341
-AnimalFamily: European bison
-petName: Ivar
-class: Mammalia 
-family: Bovidae
-age: 16  
-MealType: Herbivores
+AnimalFamily: "European bison"
+petName: "Ivar"
+Class: Mammalia 
+Age: 16  
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Savannah, Pond]
+Arial: [Savannah, Pond]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -272,14 +257,13 @@ CanSwim: false
 ...
 ---
 id: f342
-AnimalFamily: Hippopotamus
-petName: Glory
-class: Mammalia 
-family: Hippopotamidae
-age: 46  
-MealType: Herbivores
+AnimalFamily: "Hippopotamus"
+petName: "Glory"
+Class: Mammalia 
+Age: 46  
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Morning
 CanFly: false
 LivesUnderground: false
@@ -287,14 +271,13 @@ CanSwim: true
 ...
 ---
 id: f343
-AnimalFamily: Reticulated giraffe
-petName: Melman
-class: Mammalia 
-family: Giraffidae
-age: 19  
-MealType: Herbivores
+AnimalFamily: "Reticulated giraffe"
+petName: "Melman"
+Class: Mammalia 
+Age: 19  
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -302,14 +285,13 @@ CanSwim: false
 ...
 ---
 id: f344
-AnimalFamily: Elk
-petName: ex
-class: Mammalia 
-family: Cervidae
-age: 15 
-MealType: Herbivores
+AnimalFamily: "Elk"
+petName: "Ex"
+Class: Mammalia 
+Age: 15 
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Forest, Plate]
+Arial: [Forest, Plate]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -317,14 +299,13 @@ CanSwim: true
 ...
 ---
 id: f345
-AnimalFamily: Red deer
-petName: King
-class: Mammalia 
-family: Cervidae
-age: 14
-MealType: Herbivores
+AnimalFamily: "Red deer"
+petName: "King"
+Class: Mammalia 
+Age: 14
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Forest, Plate, Rock]
+Arial: [Forest, Plate, Rock]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -332,14 +313,13 @@ CanSwim: true
 ...
 ---
 id: f346
-AnimalFamily: Bactrian camel
-petName: Zen
-class: Mammalia 
-family: Camelidae
-age: 36 
-MealType: Herbivores
+AnimalFamily: "Bactrian camel"
+petName: "Zen"
+Class: Mammalia 
+Age: 36 
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -348,14 +328,13 @@ CanSwim: false
 Mammalia Artiodactyla Delphinidae:
 ---
 id: f361
-AnimalFamily: Bottlefalsese dolphins
-petName: Zoyberg
-class: Mammalia 
-family: Delphinidae
-age: 24 
-MealType: Carnivora
+AnimalFamily: "Bottlefalsese dolphins"
+petName: "Zoyberg"
+Class: Mammalia 
+Age: 24 
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Water]
+Arial: [Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -363,14 +342,13 @@ CanSwim: true
 ...
 ---
 id: f362
-AnimalFamily: Orca
-petName: Wayder
-class: Mammalia 
-family: Delphinidae
-age: 31 
-MealType: Carnivora
+AnimalFamily: "Orca"
+petName: "Wayder"
+Class: Mammalia 
+Age: 31 
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Water, Glacier]
+Arial: [Water, Glacier]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -379,14 +357,13 @@ CanSwim: true
 Mammalia Perissodactyla:
 ---
 id: f351
-AnimalFamily: Black rhifalse
-petName: Roma
-class: Mammalia 
-family: Rhifalsecerotidae
-age: 44 
-MealType: Herbivores
+AnimalFamily: "Black rhifalse"
+petName: "Roma"
+Class: Mammalia 
+Age: 44 
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Savannah, Pond]
+Arial: [Savannah, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -394,14 +371,13 @@ CanSwim: false
 ...
 ---
 id: f352
-AnimalFamily: Mountain zebra
-petName: Gary
-class: Mammalia 
-family: Equidae
-age: 18 
-MealType: Herbivores
+AnimalFamily: "Mountain zebra"
+petName: "Gary"
+Class: Mammalia 
+Age: 18 
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Savannah, Pond]
+Arial: [Savannah, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -409,14 +385,13 @@ CanSwim: false
 ...
 ---
 id: f353
-AnimalFamily: Malayan tapir
-petName: Coba
-class: Mammalia 
-family: Tapiridae
-age: 19
-MealType: Herbivores
+AnimalFamily: "Malayan tapir"
+petName: "Coba"
+Class: Mammalia 
+Age: 19
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -425,14 +400,13 @@ CanSwim: true
 Mammalia Pinnipedia:
 ---
 id: f371
-AnimalFamily: Walrus
-petName: Ban
-class: Mammalia 
-family: Odobenidae
-age: 26 
-MealType: Carnivora
+AnimalFamily: "Walrus"
+petName: "Ban"
+Class: Mammalia 
+Age: 26 
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Glacier, Plate, Water]
+Arial: [Glacier, Plate, Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -440,14 +414,13 @@ CanSwim: true
 ...
 ---
 id: f372
-AnimalFamily: Spotted seal
-petName: Kitty
-class: Mammalia 
-family: Phocidae
-age: 16 
-MealType: Carnivora
+AnimalFamily: "Spotted seal"
+petName: "Kitty"
+Class: Mammalia 
+Age: 16 
+MealType: [Carnivora]
 ReproductionType: Viviparous
-arial: [Glacier, Plate, Water]
+Arial: [Glacier, Plate, Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -456,14 +429,13 @@ CanSwim: true
 Mammalia Sirenia:
 ---
 id: f381
-AnimalFamily: Amazonian manatee
-petName: Chudo
-class: Mammalia 
-family: Trichechidae
-age: 55 
-MealType: Herbivores
+AnimalFamily: "Amazonian manatee"
+petName: "Chudo"
+Class: Mammalia 
+Age: 55 
+MealType: [Herbivores]
 ReproductionType: Viviparous
-arial: [Jungle, Water]
+Arial: [Jungle, Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -472,14 +444,13 @@ CanSwim: true
 Mammalia Primates:
 ---
 id: f381
-AnimalFamily: Western gorilla
-petName: Rifalse
-class: Mammalia 
-family: Hominidae
-age: 31   
-MealType: Herbivores
+AnimalFamily: "Western gorilla"
+petName: "Rifalse"
+Class: Mammalia 
+Age: 31   
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -487,14 +458,13 @@ CanSwim: false
 ...
 ---
 id: f382
-AnimalFamily: Red ruffed lemur
-petName: Mimo
-class: Mammalia 
-family: Lemuridae
-age: 15   
-MealType: Herbivores
+AnimalFamily: "Red ruffed lemur"
+petName: "Mimo"
+Class: Mammalia 
+Age: 15   
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -502,14 +472,13 @@ CanSwim: false
 ...
 ---
 id: f383
-AnimalFamily: Pileated gibbon
-petName: Kira
-class: Mammalia 
-family: Hylobatidae
-age: 9   
-MealType: Herbivores
+AnimalFamily: "Pileated gibbon"
+petName: "Kira"
+Class: Mammalia 
+Age: 9   
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -517,14 +486,13 @@ CanSwim: false
 ...
 ---
 id: f384
-AnimalFamily: Pygmy slow loris
-petName: Gucci
-class: Mammalia 
-family: Lorisidae
-age: 7   
-MealType: Herbivores
+AnimalFamily: "Pygmy slow loris"
+petName: "Gucci"
+Class: Mammalia 
+Age: 7   
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -532,14 +500,13 @@ CanSwim: false
 ...
 ---
 id: f385
-AnimalFamily: Wied's marmoset
-petName: Lana
-class: Mammalia 
-family: Callitrichidae
-age: 6   
-MealType: Herbivores
+AnimalFamily: "Wied's marmoset"
+petName: "Lana"
+Class: Mammalia 
+Age: 6   
+MealType: [Herbivores, Insects]
 ReproductionType: Viviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -548,14 +515,13 @@ CanSwim: false
 Reptilia Testudines:
 ---
 id: f391
-AnimalFamily: Aldabra giant tortoise
-petName: Baba Kapa
-class: Reptilia 
-family: Testudinidae
-age: 80   
-MealType: Herbivores
+AnimalFamily: "Aldabra giant tortoise"
+petName: "Baba Kapa"
+Class: Reptilia 
+Age: 80   
+MealType: [Herbivores]
 ReproductionType: Oviparous
-arial: [Jungle, Sand, Water]
+Arial: [Jungle, Sand, Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -564,14 +530,13 @@ CanSwim: true
 Reptilia Crocodilia:
 ---
 id: f401
-AnimalFamily: Black caiman
-petName: Dez
-class: Reptilia 
-family: Alligatoridae
-age: 31   
-MealType: Carnivora
+AnimalFamily: "Black caiman"
+petName: "Dez"
+Class: Reptilia 
+Age: 31   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Plain, Swamp]
+Arial: [Plain, Swamp]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -579,14 +544,13 @@ CanSwim: true
 ...
 ---
 id: f402
-AnimalFamily: Gharial
-petName: Dandi
-class: Reptilia 
-family: Gavialidae
-age: 44   
-MealType: Carnivora
+AnimalFamily: "GhArial"
+petName: "Dandi"
+Class: Reptilia 
+Age: 44   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Plain, Swamp]
+Arial: [Plain, Swamp]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -594,14 +558,13 @@ CanSwim: true
 ...
 ---
 id: f403
-AnimalFamily: Chinese alligator
-petName: Kim
-class: Reptilia 
-family: Alligatoridae
-age: 56   
-MealType: Carnivora
+AnimalFamily: "Chinese alligator"
+petName: "Kim"
+Class: Reptilia 
+Age: 56   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Plain, Swamp]
+Arial: [Plain, Swamp]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -610,14 +573,13 @@ CanSwim: true
 Reptilia Squamata:
 ---
 id: f411
-AnimalFamily: Green anaconda
-petName: Anna
-class: Reptilia 
-family: Boidae
-age: 10   
-MealType: Carnivora
+AnimalFamily: "Green anaconda"
+petName: "Anna"
+Class: Reptilia 
+Age: 10   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -625,14 +587,13 @@ CanSwim: true
 ...
 ---
 id: f412
-AnimalFamily: King cobra
-petName: Queen
-class: Reptilia 
-family: Elapidae
-age: 19   
-MealType: Carnivora
+AnimalFamily: "King cobra"
+petName: "Queen"
+Class: Reptilia 
+Age: 19   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -640,14 +601,13 @@ CanSwim: true
 ...
 ---
 id: f413
-AnimalFamily: Reticulated python
-petName: Piton
-class: Reptilia 
-family: Pythonidae
-age: 21   
-MealType: Carnivora
+AnimalFamily: "Reticulated python"
+petName: "Piton"
+Class: Reptilia 
+Age: 21   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Jungle, Pond]
+Arial: [Jungle, Pond]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -656,14 +616,13 @@ CanSwim: true
 Reptilia Varanidae:
 ---
 id: f421
-AnimalFamily: Domodo dragon
-petName: Cry
-class: Reptilia 
-family: Varanidae
-age: 21   
-MealType: Carnivora
+AnimalFamily: "Domodo dragon"
+petName: "Cry"
+Class: Reptilia 
+Age: 21   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -672,14 +631,13 @@ CanSwim: true
 Amphibia Anura:
 ---
 id: f431
-AnimalFamily: Midwife frog
-petName: Mulo
-class: Amphibia 
-family: Alytidae
-age: 5   
-MealType: Insects
+AnimalFamily: "Midwife frog"
+petName: "Mulo"
+Class: Amphibia 
+Age: 5   
+MealType: [Insects]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -687,14 +645,13 @@ CanSwim: true
 ...
 ---
 id: f432
-AnimalFamily: Pumpkin toadlet
-petName: Pump
-class: Amphibia 
-family: Brachycephalidae
-age: 2   
-MealType: Insects
+AnimalFamily: "Pumpkin toadlet"
+petName: "Pump"
+Class: Amphibia 
+Age: 2   
+MealType: [Insects]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: false
@@ -702,14 +659,13 @@ CanSwim: false
 ...
 ---
 id: f433
-AnimalFamily: Mexican burrowing toad
-petName: Mexico
-class: Amphibia 
-family: Rhifalsephrynidae
-age: 6   
-MealType: Herbivores
+AnimalFamily: "Mexican burrowing toad"
+petName: "Mexico"
+Class: Amphibia 
+Age: 6   
+MealType: [Herbivores]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Night
 CanFly: false
 LivesUnderground: true
@@ -718,14 +674,13 @@ CanSwim: false
 Birds Sphenisciformes:
 ---
 id: f441
-AnimalFamily: Emperor penguin
-petName: Pigi
-class: Birds 
-family: Spheniscidae
-age: 14   
-MealType: Carnivora
+AnimalFamily: "Emperor penguin"
+petName: "Pigi"
+Class: Birds 
+Age: 14   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Groovy, Water]
+Arial: [Groovy, Water]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -734,14 +689,13 @@ CanSwim: true
 Birds Accipitriformes:
 ---
 id: f451
-AnimalFamily: Eurasian griffon vulture
-petName: Vbivca
-class: Birds 
-family: Accipitridae
-age: 20   
-MealType: Carnivora
+AnimalFamily: "Eurasian griffon vulture"
+petName: "Vbivca"
+Class: Birds 
+Age: 20   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Savannah, Rock]
+Arial: [Savannah, Rock]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -749,14 +703,13 @@ CanSwim: false
 ...
 ---
 id: f452
-AnimalFamily: King vulture
-petName: Mozart
-class: Birds 
-family: Cathartidae
-age: 21   
-MealType: Carnivora
+AnimalFamily: "King vulture"
+petName: "Mozart"
+Class: Birds 
+Age: 21   
+MealType: [Carnivora]
 ReproductionType: Oviparous
-arial: [Savannah, Rock, Forest]
+Arial: [Savannah, Rock, Forest]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -765,14 +718,13 @@ CanSwim: false
 Birds Struthioniformes:
 ---
 id: f461
-AnimalFamily: Common ostrich
-petName: Emo
-class: Birds 
-family: Struthionidae
-age: 30   
-MealType: Herbivores
+AnimalFamily: "Common ostrich"
+petName: "Emo"
+Class: Birds 
+Age: 30   
+MealType: [Herbivores, Insects]
 ReproductionType: Oviparous
-arial: [Savannah]
+Arial: [Savannah]
 DailyCycle: Day
 CanFly: false
 LivesUnderground: false
@@ -781,14 +733,13 @@ CanSwim: false
 Birds Phoenicopteriformes:
 ---
 id: f471
-AnimalFamily: Chilean flamingo
-petName: Piri
-class: Birds 
-family: Phoenicopteridae
-age: 40   
-MealType: Herbivores
+AnimalFamily: "Chilean flamingo"
+petName: "Piri"
+Class: Birds 
+Age: 40   
+MealType: [Herbivores, Insects]
 ReproductionType: Oviparous
-arial: [Savannah, Pond]
+Arial: [Savannah, Pond]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -797,14 +748,13 @@ CanSwim: true
 Birds Psittacidae:
 ---
 id: f481
-AnimalFamily: Blue-and-yellow macaw
-petName: Rio
-class: Birds 
-family: Psittacidae
-age: 29   
-MealType: Herbivores
+AnimalFamily: "Blue-and-yellow macaw"
+petName: "Rio"
+Class: Birds 
+Age: 29   
+MealType: [Herbivores, Insects]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -812,14 +762,13 @@ CanSwim: false
 ...
 ---
 id: f482
-AnimalFamily: Nanday parakeet
-petName: Kaef
-class: Birds 
-family: Psittacidae
-age: 20   
-MealType: Herbivores
+AnimalFamily: "Nanday parakeet"
+petName: "Kaef"
+Class: Birds 
+Age: 20   
+MealType: [Herbivores, Insects]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -827,14 +776,13 @@ CanSwim: false
 ...
 ---
 id: f483
-AnimalFamily: Golden parakeet
-petName: Persi
-class: Birds 
-family: Psittacidae
-age: 15   
-MealType: Herbivores
+AnimalFamily: "Golden parakeet"
+petName: "Persi"
+Class: Birds 
+Age: 15   
+MealType: [Herbivores, Insects]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
@@ -843,14 +791,13 @@ CanSwim: false
 Birds Apodiformes:
 ---
 id: f491
-AnimalFamily: Lesser violetear
-petName: Lesly
-class: Birds 
-family: Trochilidae
-age: 2   
-MealType: Insects
+AnimalFamily: "Lesser violetear"
+petName: "Lesly"
+Class: Birds 
+Age: 2   
+MealType: [Insects, Herbivores]
 ReproductionType: Oviparous
-arial: [Jungle]
+Arial: [Jungle]
 DailyCycle: Day
 CanFly: true
 LivesUnderground: false
