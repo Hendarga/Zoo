@@ -1,7 +1,7 @@
 ### Stores unique idenificator of ticket
 # TicketId: <RIID>
 ### Stores name of visitor
-# VsitorName: ""
+# VsitorName: "" <String>60
 ### Stores type of ticket
 # TicketType: (Child, Teen, Adult, Excursion) -
 ### Store price for specified type of ticket
@@ -10,6 +10,8 @@
 # VisitDate: ""
 ### Stores date of purchase of ticket 
 # PurchaseDate: ""
+### Stores the address of the zoo
+# ZooAddress: <String>60
 ### Stores the number of printed tickets for the current day
 # NumberPrinted: <Numeric>
 ### Stores the number of tickets sold for the past day
