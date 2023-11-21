@@ -1,0 +1,20 @@
+### Stores unique idenificator of ticket
+# TicketId: <RIID>
+### Stores name of visitor
+# VsitorName: ""
+### Stores type of ticket
+# TicketType: (Child, Teen, Adult, Excursion) -
+### Store price for specified type of ticket
+# TicketPrice: <Numeric>
+### Stores date of visit to the zoo
+# VisitDate: ""
+### Stores date of purchase of ticket 
+# PurchaseDate: ""
+### Stores the number of printed tickets for the current day
+# NumberPrinted: <Numeric>
+### Stores the number of tickets sold for the past day
+# NumberSold: <Numeric>
+### Saves the validity of the ticket
+# ValidityPeriod: ""
+### Stores list of locations for visit 
+# LocationsToVisit: [] <Collection:Enum>
