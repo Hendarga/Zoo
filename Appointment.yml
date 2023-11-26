@@ -1,0 +1,23 @@
+#Appointment:
+### Stores uniqe id of appointment
+# - Id: <RIID>
+### Stores status of appointment
+# - Status: (Pending, InProgress, Closed, Canceled)
+### Stores validity date of appointment
+# - ValidityDate: <Date>
+### Store status of date for appointment
+# - StatusDate: <Date>
+### Stores the reason of appointment
+# - Reason: <String>200
+### Stores the resolution of appointment
+# - Resolution: <String>200
+### Store type of appointment
+# - Type: (Service, Medical) -
+### Stores uniqe id of subject for appointment
+# - Subject: <RIID> 
+### Stores type of subject for appointment 
+# - SubjectType: (Cage, Animal, Employee) 
+### Stores uniqe id of employee who performing this appointment
+# - Assignee: <RIID>
+### Stores uniqe id of employee who creating this appointment
+# - Reporter: <RIID>
