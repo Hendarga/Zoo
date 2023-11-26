@@ -1,22 +1,31 @@
-### Stores unique idenificator of ticket
-# TicketId: <RIID>
+# Ticket:
+### Stores unique idenificator of ticket. Number is limited by field StartNumber + Printed of TicketTypeId
+# - SeriaNumber: <RIID> 
+### Stores a reference on TicketType entity
+# - TypeId: <RIID>
 ### Stores name of visitor
-# VsitorName: "" <String>60
+# - VisitorId: <RIID>
 ### Stores type of ticket
-# TicketType: (Child, Teen, Adult, Excursion) -
+# - TicketType: (Child, Teen, Adult, Excursion, Disabled) -
 ### Store price for specified type of ticket
-# TicketPrice: <Numeric>
+# - TicketPrice: <Numeric>
 ### Stores date of visit to the zoo
-# VisitDate: ""
+# - UsageDate: <Data>
 ### Stores date of purchase of ticket 
-# PurchaseDate: ""
-### Stores the address of the zoo
-# ZooAddress: <String>60
-### Stores the number of printed tickets for the current day
-# NumberPrinted: <Numeric>
-### Stores the number of tickets sold for the past day
-# NumberSold: <Numeric>
+# - PurchaseDate: <Data>
 ### Saves the validity of the ticket
-# ValidityPeriod: ""
+# - ValidityPeriod: <Data>
+
+
+# TicketType: 
+# - TypeId: <RIID>
+# - StartNumber: <RIID>
+### Stores the printed tickets for the current day
+# - Printed: <Numeric>
+### Stores the tickets sold for the past day
+# - Sold: <Numeric>
+# - Activites: [<String>20]
+### Saves the validity of the ticket
+# - ValidityPeriod: <Data>
 ### Stores list of locations for visit 
-# LocationsToVisit: [] <Collection:Enum>
+# LocationsToVisit: <Collection:Enum>

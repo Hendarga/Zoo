@@ -1,0 +1,30 @@
+# UserProfile:
+# - UserType: (Visitor, Employee) <Collection:Enum>
+# - UserId: <RIID>
+# - Login: <String> 60
+# - Password: <String> 60
+# - Permision: [<String>30]
+# - PersonalData:
+#   - Name: "" <String> 60
+#   - Surname: "" <String> 60
+#   - Age: <Numeric>
+#   - Birthdate: <Date>
+#   - PhoneNumber: <String> 60
+#   - Email: <String> 60
+
+# VistorProfile>UserProfile:
+# - Tickets: [<RIID>]
+
+# EmployeeProfile>UserProfile:
+# - EmployeeId: <RIID> ?
+# - Position: (HR, Service, Medical, Admin) -
+# - EmploymentDate: <Date>
+# - DismicialDate: <Date>
+# - DismicialReason: <String> 120 
+# - EmployeeData:
+#   - Pasport: 
+#     - SeriaNumber: <String> 20
+#     - ValidityDate: <Date>
+#   - LegalAddress: <String> 120
+#   - IN: <String> 20
+#   - BankDetails: <String> 200
