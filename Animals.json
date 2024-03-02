@@ -1,0 +1,48 @@
+{
+    "Mammalia Felidae": [
+      {
+        "id": "f123",
+        "AnimalFamily": "Lion",
+        "PetName": "Alex",
+        "Class": "Mammalia",
+        "Age": 10,
+        "MealType": ["Carnivora"],
+        "ReproductionType": "Viviparous",
+        "Arial": ["Savannah"],
+        "DailyCycle": "Night",
+        "CanFly": false,
+        "LivesUnderground": false,
+        "CanSwim": true
+      },
+      {
+        "id": "f124",
+        "AnimalFamily": "Lioness",
+        "PetName": "Lora",
+        "Class": "Mammalia",
+        "Age": 9,
+        "MealType": ["Carnivora"],
+        "ReproductionType": "Viviparous",
+        "Arial": ["Savannah"],
+        "DailyCycle": "Night",
+        "CanFly": false,
+        "LivesUnderground": false,
+        "CanSwim": true
+      }
+    ],
+    "Mammalia Ursidae": [
+      {
+        "id": "f134",
+        "AnimalFamily": "Polar bear",
+        "PetName": "Umka",
+        "Class": "Mammalia",
+        "Age": 25,
+        "MealType": ["Carnivora"],
+        "ReproductionType": "Viviparous",
+        "Arial": ["Glacier", "Plain", "Pond"],
+        "DailyCycle": "Morning",
+        "CanFly": false,
+        "LivesUnderground": false,
+        "CanSwim": true
+      }
+      ]
+    }
