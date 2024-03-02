@@ -1,0 +1,31 @@
+
+[
+  {
+    "CageId": "c001",
+    "Alias": "Lions Kingdom",
+    "CageType": ["Stone", "Plain"],
+    "HasNet": "n/a",
+    "Square": 2500,
+    "Geometry": [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]],
+    "Height": "n/a",
+    "Length": "n/a",
+    "Width": "n/a",
+    "OpenToVisit": true,
+    "Animals": ["f123", "f124"]
+  },
+  {
+    "CageId": "c002",
+    "Alias": "Eldorado",
+    "CageType": ["Jungle", "Pond"],
+    "HasNet": "n/a",
+    "Square": 1000,
+    "Geometry": [[0.1,0.1],[0.1,0.2],[0.2,0.1],[0.2,0.2]],
+    "Height": "n/a",
+    "Length": "n/a",
+    "Width": "n/a",
+    "OpenToVisit": true,
+    "Animals": ["f125"]
+  }
+]
+
+

@@ -1,0 +1,15 @@
+{
+    "Appointment": {
+      "Id": "<RIID>",
+      "Status": "Pending",
+      "ValidityDate": "<Date>",
+      "StatusDate": "<Date>",
+      "Reason": "<String>200",
+      "Resolution": "<String>200",
+      "Type": "Service",
+      "Subject": "<RIID>",
+      "SubjectType": "Cage",
+      "Assignee": "<RIID>",
+      "Reporter": "<RIID>"
+    }
+  }
